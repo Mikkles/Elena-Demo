@@ -14,6 +14,9 @@ I'm aware that there is placeholder text in places. The particular formatting of
 # Feedback
 You can give me feedback wherever I've given you this link. Eventually I'll create a dedicated discord for this game.
 
+# Story
+The story takes place in a fantasy 1900s urban center, based on Venice as a merchant state. You play as Ferdando Severio, a sleepy detective, and his excitable sidekick, the ex-noble cadet Arnogast Ryker.
+
 # How to Play
 Go to this link! https://mikkles.github.io/Elena-Demo/Elena.html
 
