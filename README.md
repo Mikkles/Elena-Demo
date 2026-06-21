@@ -14,5 +14,4 @@ There will be placeholder text in places, and the links may not always work.
 # How to Play
 
 Go to this link! https://mikkles.github.io/Elena-Demo/Elena.html
-<img width="399" height="169" alt="image" src="https://github.com/user-attachments/assets/7314a260-c641-47f3-8fcf-17dd27ef8687" />
 
