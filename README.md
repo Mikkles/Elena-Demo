@@ -13,4 +13,6 @@ There will be placeholder text in places, and the links may not always work.
 
 # How to Play
 
-Simply go to this link, it will run in your browser!
+Go to Elena.html here, download the html file (the download button looks like below), and open it in your browser of choice!
+<img width="399" height="169" alt="image" src="https://github.com/user-attachments/assets/7314a260-c641-47f3-8fcf-17dd27ef8687" />
+
