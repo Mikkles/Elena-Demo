@@ -23,11 +23,11 @@ You play as Ferdando Severio, a sleepy detective, and his excitable sidekick, th
 # Keywords
 The following are terms that, in the full game, would have hover tooltips with descriptions.
 
-Spellprints: When a spell is cast, it leaves behind an imprint in the ether for appx 48 hours. Spellcasters can sense these, and use them to determine what spell was cast and approximately when. These appear at the location of the caster, not the target.
-Occult and Primal magic: Two traditions of magic. How they're used is very different, and identifiable through spellprints. Rarely does someone have the talent to learn more than one tradition of magic. The other traditions are Arcane and Divine.
-Tallmen and Half-foots: These are words for humans and halflings/hobbits respectively. (I stole this from the Dungeon Meshi anime)
-Kith: This describes all humanoids, like tallmen, dwarves, elves, gnomes, and so on.  
-Souls: The folklore of the region believes that souls exist, and when someone dies, their soul moves on to one of many planes of existence depending on how they acted. This theory is supported by the current understanding of magic.
+* Spellprints: When a spell is cast, it leaves behind an imprint in the ether for appx 48 hours. Spellcasters can sense these, and use them to determine what spell was cast and approximately when. These appear at the location of the caster, not the target.
+* Occult and Primal magic: Two traditions of magic. How they're used is very different, and identifiable through spellprints. Rarely does someone have the talent to learn more than one tradition of magic. The other traditions are Arcane and Divine.
+* Tallmen and Half-foots: These are words for humans and halflings/hobbits respectively. (I stole this from the Dungeon Meshi anime)
+* Kith: This describes all humanoids, like tallmen, dwarves, elves, gnomes, and so on.  
+* Souls: The folklore of the region believes that souls exist, and when someone dies, their soul moves on to one of many planes of existence depending on how they acted. This theory is supported by the current understanding of magic.
 
 # How to Play
 Go to this link! https://mikkles.github.io/Elena-Demo/Elena.html
