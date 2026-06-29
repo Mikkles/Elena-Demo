@@ -3,13 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Elena</title>
+<title>Elena Draft 2</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:.1em}0%,to{top:0px}}@keyframes shudder{25%{left:.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%,to{transform:translateX(0em)}5%,25%,45%{transform:translateX(-1em)}15%,35%,55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%,to{transform:translateY(0em)}5%,25%,45%{transform:translateY(-1em)}15%,35%,55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%,8.1%,82.1%,31.1%,38.1%,44.1%,40.1%,47.1%,74.1%,16.1%,27.1%,72.1%,24.1%,95.1%,6.1%,36.1%,20.1%,4.1%,91.1%,14.1%,87.1%,to{left:0px;top:0px}8%,82%,31%,38%,44%{left:-1px}40%,47%,74%,16%,27%{left:1px}72%,24%,95%,6%,36%{top:-1px}20%,4%,91%,14%,87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:.2}64%{opacity:.4}78%{opacity:.6}87%{opacity:.8}92%,to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:#000;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" name="' attr(name) '">'}tw-open-button[goto]{display:none}.debug-mode tw-open-button[replay],.debug-mode tw-open-button[goto]{display:inline}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 .5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,.5)}.debug-mode tw-expression[title]:not([title=""]){cursor:help}.debug-mode tw-hook{background-color:rgba(0,85,255,.1) !important}.debug-mode tw-hook::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,.1) !important}.debug-mode tw-collapsed::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 50%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0.25) 0%, hsla(14, 100%, 87%, 0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, hsla(14, 100%, 87%, 0) 0%, hsla(14, 100%, 87%, 0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,.2)}.debug-mode tw-enchantment{animation:enchantment .5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,.1)}.debug-mode tw-include::before{font-size:.8rem;padding-left:.2rem;padding-right:.2rem;vertical-align:top;content:attr(type) ' "' attr(name) '"'}.debug-dialogs tw-backdrop:not(.eval-replay):not(.harlowe-crash){pointer-events:none;opacity:.1}tw-eval-replay tw-eval-code,tw-eval-replay tw-eval-explanation{max-height:20vh;overflow:auto;margin:10px auto}tw-eval-replay tw-eval-code{display:block;font-family:monospace;padding-bottom:1ex;border-bottom:2px solid gray}tw-eval-replay tw-eval-explanation{display:block;text-align:center}tw-eval-replay tw-eval-explanation>code{white-space:pre-wrap}tw-eval-replay tw-eval-explanation>code.from-block{width:40%;display:inline-block;text-align:left;max-height:4em;overflow-wrap:anywhere;overflow-y:scroll}tw-eval-replay tw-eval-explanation>code.from-block~.to-desc{width:calc(40% - 2em);margin-left:2em;display:inline-block}tw-eval-replay tw-eval-explanation>code.from-block+span::after{content:"..."}tw-eval-replay tw-eval-explanation>code.from-inline{text-align:right}tw-eval-replay tw-eval-explanation>:nth-child(2){white-space:pre}tw-eval-replay tw-eval-explanation>.to-desc{text-align:left}tw-eval-replay tw-eval-explanation>table{width:100%;margin-top:1em}tw-eval-replay tw-eval-explanation>table td{white-space:pre-wrap !important;word-wrap:anywhere}tw-eval-replay tw-eval-reason{text-align:center;font-size:80%;font-style:italic;display:block}tw-eval-replay tw-eval-it{text-align:center;font-size:80%;display:block}tw-eval-replay tw-dialog-links{display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:14em;min-height:1em;padding:0em .5em .5em 1em;font-size:1.25em;font-family:sans-serif;color:#262626;background-color:#fff;border-left:solid #262626 2px;border-top:solid #262626 2px;border-top-left-radius:.5em;opacity:1}tw-debugger.fade-panel:not(:hover){opacity:.33}tw-debugger.theme-dark{color:#d9d9d9;background-color:#000}tw-debugger.theme-dark{border-color:#d9d9d9 rgba(0,0,0,0) rgba(0,0,0,0) #d9d9d9}tw-debugger select{margin-right:1em;width:12em}tw-debugger button,tw-debugger tw-link{border-radius:3px;border:solid #999 1px;margin:auto 4px;color:#262626;background-color:#fff;cursor:pointer}tw-debugger button.enabled,tw-debugger tw-link.enabled{color:#000;background-color:#d9d9d9;box-shadow:inset #999 3px 5px .5em}tw-debugger.theme-dark button,tw-debugger.theme-dark tw-link{color:#d9d9d9;background-color:#000;border-color:#666}tw-debugger.theme-dark button.enabled,tw-debugger.theme-dark tw-link.enabled{color:#e6e6e6;background-color:#424242;box-shadow:inset #666 3px 5px .5em}tw-debugger button{font-size:1em;overflow-x:hidden;text-overflow:ellipsis;white-space:pre}tw-debugger tw-link{font-size:1.25em;border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-debugger tw-link:hover{border-color:#262626;color:#262626}tw-debugger.theme-dark tw-link:hover{border-color:#d9d9d9;color:#d9d9d9}tw-debugger tw-dialog{background-color:#fff;color:#000;font-size:1.25em}tw-debugger.theme-dark tw-dialog{background-color:#000;color:#e6e6e6}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;overflow-y:scroll;overflow-x:hidden;border:inherit;box-sizing:content-box;background-color:#fff;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger.theme-dark .panel{background-color:#000;border-bottom-color:#666}tw-debugger .panel-source .panel-row-buttons{width:2rem}tw-debugger .panel-source .source-tags{width:20%;font-style:italic}tw-debugger .panel-row-source td{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere;max-height:8rem;padding:1rem}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background-color:#e6e6e6}tw-debugger .panel-tools .panel-rows>*,tw-debugger .panel-options .panel-rows>*{margin-top:.4rem;display:block}tw-debugger.theme-dark .panel-rows>div:nth-of-type(2n){background-color:#212121}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#575757;text-align:center}tw-debugger .panel-errors .panel-rows:empty+.panel-errors-bottom{display:none}tw-debugger.theme-dark .panel-variables .panel-rows:empty::before,tw-debugger.theme-dark .panel-enchantments .panel-rows:empty::before,tw-debugger.theme-dark .panel-errors .panel-rows:empty::before{color:#a8a8a8}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger th[data-col]{text-decoration:underline;cursor:pointer}tw-debugger th[data-col][data-order=asc]::after{content:"↓"}tw-debugger th[data-col][data-order=desc]::after{content:"↑"}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .storylet-exclusive,tw-debugger .storylet-urgent,tw-debugger .storylet-open{text-align:center}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:.8;font-size:.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#575757;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger.theme-dark .variable-type{color:#a8a8a8}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,.3)}tw-debugger .error-row>*{display:table-cell;padding:.25em .5em}tw-debugger .error-row .error-message[title]:not([title=""]){cursor:help}tw-debugger .error-row .error-passage{color:#575757}tw-debugger.theme-dark .error-row .error-passage{color:#a8a8a8}tw-debugger .storylet-row{background-color:rgba(193,240,225,.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(152,231,204,.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;background-color:#fff}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:#e6e6e6}tw-debugger .storylet-row.storylet-closed>:not(.storylet-lambda){opacity:.6}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .storylet-row .storylet-lambda{font-family:monospace;font-size:1rem;white-space:pre-wrap;overflow-wrap:anywhere}tw-debugger.theme-dark .storylet-row.storylet-closed{background-color:#000}tw-debugger.theme-dark .storylet-row.storylet-closed:nth-child(2n){background-color:#212121}tw-debugger .tabs{padding-bottom:.5em}tw-debugger .tab{border-radius:0px 0px .5em .5em;border-top:none;top:-2px}tw-debugger .resizer-h{position:absolute;height:14em;border-left:2px solid #999;border-right:2px solid #999;top:10px;left:4px;width:8px;cursor:ew-resize}tw-debugger.theme-dark .resizer-h{border-color:rgba(0,0,0,0) #666}tw-debugger .resizer-v{position:absolute;height:8px;border-top:2px solid #999;border-bottom:2px solid #999;margin-bottom:4px;top:4px;left:10px;width:95%;cursor:ns-resize;box-sizing:border-box}tw-debugger.theme-dark .resizer-v{border-color:#666 rgba(0,0,0,0)}tw-debugger mark{color:inherit;background-color:rgba(101,230,230,.3) !important}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media(min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%;border:solid #fff !important}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop~tw-backdrop{display:none}tw-link,.enchantment-link{cursor:pointer;color:#4169e1;font-weight:bold;text-decoration:none;transition:color .2s ease-in-out}tw-passage [style^=color] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^=color][hover=true] tw-link:hover,tw-passage [style*=" color"][hover=true] tw-link:hover,tw-passage [style^=color] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^=color][hover=true] .enchantment-link:hover,tw-passage [style*=" color"][hover=true] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#dd4b39}.visited{color:#6941e1}tw-passage [style^=color] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^=color][hover=true] .visited:hover,tw-passage [style*=" color"][hover=true] .visited:hover{color:inherit}.visited:hover{color:#e3e}tw-broken-link{color:#933;border-bottom:2px solid #933;cursor:not-allowed}tw-passage [style^=color] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^=color][hover=true] tw-broken-link:hover,tw-passage [style*=" color"][hover=true] tw-broken-link:hover{color:inherit}tw-link.enchantment-mouseover,.link.enchantment-mouseover,tw-expression.enchantment-mouseover>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border-bottom:2px dashed #999}tw-link.enchantment-mouseover:hover,tw-link.enchantment-mouseover:active,.link.enchantment-mouseover:hover,.link.enchantment-mouseover:active,tw-expression.enchantment-mouseover>tw-link:hover,tw-expression.enchantment-mouseover>tw-link:active{color:inherit}tw-link.enchantment-mouseover.enchantment-button,.link.enchantment-mouseover.enchantment-button,tw-expression.enchantment-mouseover>tw-link.enchantment-button{border-style:dashed}tw-link.enchantment-mouseout,.link.enchantment-mouseout,tw-expression.enchantment-mouseout>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;border:rgba(64,149,191,.6) 1px solid;border-radius:.2em}tw-link.enchantment-mouseout:hover,tw-link.enchantment-mouseout:active,.link.enchantment-mouseout:hover,.link.enchantment-mouseout:active,tw-expression.enchantment-mouseout>tw-link:hover,tw-expression.enchantment-mouseout>tw-link:active{color:inherit}tw-link.enchantment-mouseout:hover,.link.enchantment-mouseout:hover,tw-expression.enchantment-mouseout>tw-link:hover{background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 1px solid}tw-link.enchantment-dblclick,.link.enchantment-dblclick,tw-expression.enchantment-dblclick>tw-link{color:inherit;font-weight:inherit;transition:none;cursor:inherit;cursor:pointer;border:2px solid #999;border-radius:0}tw-link.enchantment-dblclick:hover,tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:hover,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:hover,tw-expression.enchantment-dblclick>tw-link:active{color:inherit}tw-link.enchantment-dblclick:active,.link.enchantment-dblclick:active,tw-expression.enchantment-dblclick>tw-link:active{background-color:#999}tw-link.enchantment-button,.link.enchantment-button,.enchantment-button:not(.link) tw-link,.enchantment-button:not(.link) .link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}.enchantment-button{display:block}.enchantment-clickblock{cursor:pointer;width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,.5);transition:color .2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 .5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 .5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,.75);border:rgba(0,0,0,0) 2px solid;border-radius:.2em}.enchantment-dblclickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;cursor:pointer;border:2px solid #999}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia,serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media(min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:rgba(0,0,0,0);font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=text]{background-color:rgba(0,0,0,0);font:inherit;color:inherit;border-style:none}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 .5em .5em .5em;vertical-align:middle}tw-story tw-noscript{animation:appear .8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media(min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*=width]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:.2;cursor:pointer}tw-icon[alt]:hover{opacity:.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:.2em;padding:.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:4px;border:1px solid rgba(255,255,255,.5);font-size:.8rem;margin:0 .2rem;padding:3px;white-space:pre}tw-folddown::after{content:"▶"}tw-folddown.open::after{content:"▼"}tw-open-button[replay]{display:none}tw-error tw-open-button,tw-eval-replay tw-open-button{display:inline !important}tw-open-button::after{content:attr(label)}tw-notifier{border-radius:.2em;padding:.2em;font-size:1rem;background-color:rgba(223,182,58,.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid #000;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:.3em 0 .6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,.6);background-color:#ff9}ins{color:rgba(0,0,0,.6);background-color:rgba(255,242,204,.5);border-radius:.5em;box-shadow:0em 0em .2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Elena.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Elena" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="4722BCC0-8475-4230-B1CD-471A8707A37D" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Approaching Manor" tags="" position="600,200" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Mud clung to our boots as we trudged up the hill to the manor. Before us was one set of footprints, less than an hour old, and a pair of wagon wheel ruts from last night. 
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Elena Draft 2.</tw-noscript></noscript></tw-story>
+<tw-storydata name="Elena Draft 2" startnode="62" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="bf6e2fcf-55f9-43e0-bd3c-063659d2f6b8" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-hook[name="tooltip"] { 
+    position: relative; 
+    display: inline-block; 
+    border-bottom: 2px dotted teal; 
+    cursor: help;
+}
+
+tw-hook[name="tooltip"] .tooltiptext { 
+    visibility: hidden; 
+    width: 18em; 
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    border-radius: 0.5em; 
+    padding: 0.4em 0; 
+    position: absolute; 
+    z-index: 10; 
+    bottom: 125%; 
+    left: 50%; 
+    margin-left: -4em; 
+    opacity: 0; 
+    transition: opacity 0.3s;
+}
+
+tw-hook[name="tooltip"]:hover .tooltiptext { 
+    visibility: visible; 
+    opacity: 1;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="to-do" color="green"></tw-tag><tw-tag name="todo" color="green"></tw-tag><tw-tag name="delete" color="red"></tw-tag><tw-passagedata pid="1" name="Approaching Manor" tags="" position="575,1000" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Mud clung to our boots as we trudged up the hill to the manor. Before us was one set of footprints, less than an hour old, and a pair of wagon wheel ruts from last night. 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The small manor was dignified, though a bit neglected. The complex paint detailing was chipping, the ornate eaves were sagging. 
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet&#39;s demeaner fell after taking in the scene.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Disappointed, champ?&quot;
@@ -18,7 +45,7 @@
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;You ready for a real case, cadet?&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- He shrugged, but his stern face was plastered with a huge grin. &quot;Yes, sir!&quot;
 
-[[Enter House]]</tw-passagedata><tw-passagedata pid="2" name="Enter Foyer" tags="" position="900,200" size="100,100">The foyer has three people in it
+[[Enter House]]</tw-passagedata><tw-passagedata pid="2" name="Enter Foyer" tags="" position="875,1000" size="100,100">The foyer has three people in it
 
 [[Go to List of Rooms]]
 
@@ -26,7 +53,7 @@
 
 [[Speak with Elena Pentaccio]]
 
-[[Speak with Annelia Pentaccio]]</tw-passagedata><tw-passagedata pid="3" name="Enter Parlor" tags="" position="1525,200" size="100,100">[[Go to List of Rooms]] 
+[[Speak with Annelia Pentaccio]]</tw-passagedata><tw-passagedata pid="3" name="Enter Parlor" tags="" position="1500,1000" size="100,100">[[Go to List of Rooms]] 
 
 The parlor has three people in it.
 
@@ -34,7 +61,7 @@ The parlor has three people in it.
 
 [[Speak with Matazario Caleshi]]
 
-[[Speak with Fio Rodillius]]</tw-passagedata><tw-passagedata pid="4" name="Enter Dining Room" tags="" position="575,725" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The cozy dining room was dominated by a darkwood dining table too big fror the room. The table is covered with documents, notepads, and empty wine bottles. Along the walls, dour portraits of family and extended family peered down at us.
+[[Speak with Fio Rodillius]]</tw-passagedata><tw-passagedata pid="4" name="Enter Dining Room" tags="" position="550,1525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The cozy dining room was dominated by a darkwood dining table too big fror the room. The table is covered with documents, notepads, and empty wine bottles. Along the walls, dour portraits of family and extended family peered down at us.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- A faint sparkle caught my eye; something in the rug beneath the table.
 
 [[Investigate Rug]]
@@ -43,7 +70,7 @@ The parlor has three people in it.
 
 [[Investigate Portraits]]
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="5" name="Enter Kitchen" tags="" position="1050,750" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- A spacious stonework kitchen. Well cleaned, well loved. Almost immaculate, save for the remains of a charcuterie board with stale crackers, shriveled sausage, and luxurious cheeses.
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="5" name="Enter Kitchen" tags="" position="1025,1550" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- A spacious stonework kitchen. Well cleaned, well loved. Almost immaculate, save for the remains of a charcuterie board with stale crackers, shriveled sausage, and luxurious cheeses.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet gave a small gasp. &quot;Toranian brie, I haven&#39;t had that since I was a child!&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;I could never stomach the fancy cheeses. Give me your basic parm.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;It&#39;s the best acquired taste I could imagine.&quot; He trailed off wistfully.
@@ -54,7 +81,7 @@ The parlor has three people in it.
 
 (You gain the Fancy Cheese!)
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="6" name="Enter Lower Hallway" tags="" position="850,750" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The creaky hallway was in need of a dusting. It led from the foyer to the kitchen. To the east was a door, as well as a landing to a second staircase, plainer than the grand in the foyer, which led both up and down.
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="6" name="Enter Lower Hallway" tags="" position="825,1550" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The creaky hallway was in need of a dusting. It led from the foyer to the kitchen. To the east was a door, as well as a landing to a second staircase, plainer than the grand in the foyer, which led both up and down.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- As we walked forward, one of the squeaks of the floorboard sounded a bit different. Out of the corner of my eye, I spotted the tail of a rat dart into a hole in the corner.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;A rat! Ryker, did you prepare a spell to speak with animals today?&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Yes sir, though... it&#39;s a [primal] spell, so I&#39;m afraid I&#39;m not very talented with it.&quot;
@@ -62,17 +89,17 @@ The parlor has three people in it.
 
 [[Speak with Rat]] &lt;-- //--Only click this option if you&#39;ve gathered cheese--//
 
-[[Go to List of Rooms]]</tw-passagedata><tw-passagedata pid="7" name="Enter Men&#39;s Guest Room" tags="" position="1625,725" size="100,100">PLACEHOLDER TEXT
+[[Go to List of Rooms]]</tw-passagedata><tw-passagedata pid="7" name="Enter Men&#39;s Guest Room" tags="" position="1600,1525" size="100,100">PLACEHOLDER TEXT
 
 - Severio and Ryker find two beds with a room divider between them.
 - One of the beds is missing its sheets. 
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="8" name="Enter Ladies&#39; Guest Room" tags="" position="1900,750" size="100,100">PLACEHOLDER TEXT
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="8" name="Enter Ladies&#39; Guest Room" tags="" position="1875,1550" size="100,100">PLACEHOLDER TEXT
 
 - Severio and Ryker find a broken wine glass hidden in Fio Rodillius&#39; overnight bag. 
 - If the players have found the glass in the dining room, they notice it came from this broken glass.
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="9" name="Enter Elena&#39;s Bedroom" tags="" position="2550,775" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Elena&#39;s bedroom seemed quaint, pink sheets and pastel frills. Seemed unfitting for the morose girl downstairs.
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="9" name="Enter Elena&#39;s Bedroom" tags="" position="2525,1575" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Elena&#39;s bedroom seemed quaint, pink sheets and pastel frills. Seemed unfitting for the morose girl downstairs.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;This doesn&#39;t feel like an occultist&#39;s room. Seems a bit unbecoming to rifle through a young lady&#39;s things.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;You are correct, but this young lady is a murder suspect, who&#39;s given us permission to investigate. I should hope we stay respectful.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet nods, gingerly stepping into the room, clearly uncomfortable for a number of reasons.
@@ -80,7 +107,7 @@ The parlor has three people in it.
 
 [[Investigate Desk]]
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="10" name="Enter Giodeo and Annelia&#39;s Room" tags="" position="2225,750" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The room of Giodeo and Annelia was particularly spacious, almost a full suite. A four poster bed, tea table and settings, and a rather elegant makeup table.
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="10" name="Enter Giodeo and Annelia&#39;s Room" tags="" position="2200,1550" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The room of Giodeo and Annelia was particularly spacious, almost a full suite. A four poster bed, tea table and settings, and a rather elegant makeup table.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Painted portraits of the happy couple adorn most of the walls in the place.
 
 [[Investigate Makeup Table]]
@@ -88,7 +115,7 @@ The parlor has three people in it.
 [[Investigate Tea Set]]
 
 [[Go to List of Rooms]] 
-</tw-passagedata><tw-passagedata pid="11" name="Enter Lord Pentaccio&#39;s Room" tags="" position="1250,750" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- There he was, the victim, bedsheets tangled around him from his death throes. Seemed like he&#39;d be an imposing presense if he was alive. As for now...
+</tw-passagedata><tw-passagedata pid="11" name="Enter Lord Pentaccio&#39;s Room" tags="" position="1225,1550" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- There he was, the victim, bedsheets tangled around him from his death throes. Seemed like he&#39;d be an imposing presense if he was alive. As for now...
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- I wonder when I got so used to seeing corpses...
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet gulped as we moved in. Still fresh for him. I wonder how long that lasts...
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The room was stately, but unadorned. Decoration was for impressing company, not for personal enjoyment. 
@@ -106,7 +133,7 @@ The parlor has three people in it.
 
 [[Investigate Room]] - //This option only appears after investigating for magic.//
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="12" name="Speak with Fio Rodillius" tags="" position="1600,400" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Fio Rodillius, a dwarven woman, sat politely on the parlor sofa. Her makeup was...strong, for a word. A heavy-handed attempt to hide the aging process.
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="12" name="Speak with Fio Rodillius" tags="" position="1575,1200" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Fio Rodillius, a dwarven woman, sat politely on the parlor sofa. Her makeup was...strong, for a word. A heavy-handed attempt to hide the aging process.
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;Mister Detective, a pleasure. How may I help you?&quot; She twisted a rather well-decorated wedding ring around her finger. Drawing attention.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;I&#39;d like to ask you a few questions.&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;Of course. But please make it quick, I am certain my husband is terribly worried about me right now.&quot;
@@ -115,7 +142,7 @@ The parlor has three people in it.
 
 [[Ask Rodillius about relationship with victim]]
 
-[[Return to Parlor-&gt;Enter Parlor]] </tw-passagedata><tw-passagedata pid="13" name="Speak with Matazario Caleshi" tags="" position="1850,400" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Matazario Caleshi, the gaunt man, checked his pocketwatch and put it back in his oversized jacket. In fact, all of his clothes were oversized...He peered out the window, not looking at us as we approach.
+[[Return to Parlor-&gt;Enter Parlor]] </tw-passagedata><tw-passagedata pid="13" name="Speak with Matazario Caleshi" tags="" position="1825,1200" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Matazario Caleshi, the gaunt man, checked his pocketwatch and put it back in his oversized jacket. In fact, all of his clothes were oversized...He peered out the window, not looking at us as we approach.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Signor, could I speak with you?&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- He tutted. &quot;Sure.&quot; A man of few words.
 
@@ -123,7 +150,7 @@ The parlor has three people in it.
 
 [[Ask Caleshi about relationship with victim]]
 
-[[Return to Parlor-&gt;Enter Parlor]] </tw-passagedata><tw-passagedata pid="14" name="Speak with Tribaxet Stomp" tags="" position="2050,400" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Tribaxet Stomp, the gnomish man, grumbled to himself in the corner, eyes flicking to the clock almost like clockwork. We approached and he gave a dramatic, exasperated sigh.
+[[Return to Parlor-&gt;Enter Parlor]] </tw-passagedata><tw-passagedata pid="14" name="Speak with Tribaxet Stomp" tags="" position="2025,1200" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Tribaxet Stomp, the gnomish man, grumbled to himself in the corner, eyes flicking to the clock almost like clockwork. We approached and he gave a dramatic, exasperated sigh.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Signor, may I--&quot;
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- &quot;YOU MAY NOT! I have already EXPLAINED everything to the GUARD over there, and now I&#39;m LATE.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Er, uh I&#39;m very sorry, but I need to ask you to explain it to me.&quot; 
@@ -134,7 +161,7 @@ The parlor has three people in it.
 
 [[Ask Stomp about relationship with victim]]
 
-[[Return to Parlor-&gt;Enter Parlor]]</tw-passagedata><tw-passagedata pid="15" name="Enter House" tags="" position="750,200" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The foyer was a bit more maintained than the outside. A darkwood staircase led up to the second floor; a handsome grandfather clock tocked dutifully in the corner. Some plants barely clung to life in a pair of vases.
+[[Return to Parlor-&gt;Enter Parlor]]</tw-passagedata><tw-passagedata pid="15" name="Enter House" tags="" position="725,1000" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The foyer was a bit more maintained than the outside. A darkwood staircase led up to the second floor; a handsome grandfather clock tocked dutifully in the corner. Some plants barely clung to life in a pair of vases.
 (click: ?page)[==(text-colour:#baeeb9)[Lt. Derem Masamhan] -- The lieutenant gestured to a group of three tall-men standing awkwardly in the center of the room; one man, one woman, and one teenage girl -- in handcuffs.
 (click: ?page)[==(text-colour:#baeeb9)[Lt. Derem Masamhan] -- &quot;Detective Severio, these are the Pentaccio family. This is signor Giodeo Pentaccio, son of Paotro.&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- A lanky, pale man stepped forward to nervously shake my hand. He stood tall, his proud facade failing to hide an expression like a wounded puppy.
@@ -153,7 +180,7 @@ The parlor has three people in it.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Let&#39;s keep an eye on her. Something doesn&#39;t sit right.&quot;
 
 [[Enter Foyer]]
-</tw-passagedata><tw-passagedata pid="16" name="Go to List of Rooms" tags="" position="1275,600" size="100,100">&#39;&#39;Ground Floor&#39;&#39;
+</tw-passagedata><tw-passagedata pid="16" name="Go to List of Rooms" tags="" position="1250,1400" size="100,100">&#39;&#39;Ground Floor&#39;&#39;
 
 [[Enter Foyer]] &lt;- Speak with Pentaccios
 
@@ -185,7 +212,7 @@ The parlor has three people in it.
 
 Once you&#39;ve been to every room, investigated every point, and spoken to every person, you may click the following: 
 [[Gather Everyone in the Parlor]]
-</tw-passagedata><tw-passagedata pid="17" name="Speak with Giodeo Pentaccio" tags="" position="500,400" size="100,100">(click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;G-good morning, detective. Welcome to our home. I wish it was under better circumstances.&quot;
+</tw-passagedata><tw-passagedata pid="17" name="Speak with Giodeo Pentaccio" tags="" position="475,1200" size="100,100">(click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;G-good morning, detective. Welcome to our home. I wish it was under better circumstances.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Thank you, signore. My condolonces for your loss.&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- The man blinked for a moment, almost confused by what I said. &quot;Ah, that is very kind of you.&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- He takes a breath and stands taller. &quot;What can I do to help your investigation?&quot;
@@ -195,7 +222,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 
 [[Ask Giodeo about relationship with victim]]
 
-[[Return to Foyer-&gt;Enter Foyer]]</tw-passagedata><tw-passagedata pid="18" name="Speak with Annelia Pentaccio" tags="" position="1000,400" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Signora, would you answer a few questions?
+[[Return to Foyer-&gt;Enter Foyer]]</tw-passagedata><tw-passagedata pid="18" name="Speak with Annelia Pentaccio" tags="" position="975,1200" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Signora, would you answer a few questions?
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- The woman smiled weakly, a habitual response. When she stepped forward, she winced slightly, favoring her left foot.
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- Yes of course, what can I do for you?
 
@@ -203,7 +230,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 
 [[Ask Annelia about relationship with victim]]
 
-[[Return to Foyer-&gt;Enter Foyer]]</tw-passagedata><tw-passagedata pid="19" name="Speak with Elena Pentaccio" tags="" position="750,400" size="100,100">(click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- We approached the young girl. She turned to us with glacial pace, eyes drooping and tired, but without a sense of sadness. She stared off into the middle distance... 
+[[Return to Foyer-&gt;Enter Foyer]]</tw-passagedata><tw-passagedata pid="19" name="Speak with Elena Pentaccio" tags="" position="725,1200" size="100,100">(click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- We approached the young girl. She turned to us with glacial pace, eyes drooping and tired, but without a sense of sadness. She stared off into the middle distance... 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Ahem, um, Signorina Elena, I am sorry to disturb you at this sensitive time, but I must ask you some questions.&quot;
 (click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- &quot;Yes, detective.&quot; She spoke slowly, turning her eyes to me. I couldn&#39;t register an emotion.
 
@@ -211,7 +238,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 
 [[Ask Elena about relationship with victim]]
 
-[[Return to Foyer-&gt;Enter Foyer]] </tw-passagedata><tw-passagedata pid="20" name="Ask Giodeo about last night" tags="" position="375,500" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Can you give me your account of what happened last night?&quot;
+[[Return to Foyer-&gt;Enter Foyer]] </tw-passagedata><tw-passagedata pid="20" name="Ask Giodeo about last night" tags="" position="350,1300" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Can you give me your account of what happened last night?&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;Yes, of course.&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;Father had his business partners over for a meeting in the dining room. It...got quite heated.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Do you know what they argued about?&quot;
@@ -242,7 +269,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;To be quite honest, I&#39;m not sure what to think. It was Signore Stomp, one of father&#39;s partners. He said he sensed occult magic and accused everyone in the room of sabotaging his business proposals.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Thank you, I apologize for making you relive this.&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;It is no problem, anything I can do to help.&quot;
-[[Speak with Giodeo Pentaccio]] </tw-passagedata><tw-passagedata pid="21" name="Ask Giodeo about relationship with victim" tags="" position="500,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Signore, may I ask you, what was your relationship like with your father?&quot;
+[[Speak with Giodeo Pentaccio]] </tw-passagedata><tw-passagedata pid="21" name="Ask Giodeo about relationship with victim" tags="" position="475,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Signore, may I ask you, what was your relationship like with your father?&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;It...to be honest, it had been better.&quot; The wince on the man&#39;s face implied this was a diplomatic answer.
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;After mother passed suddenly a few years ago, he became a much more... stern man. One could say he didn&#39;t suffer fools.
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;And then there was the wedding...&quot;
@@ -258,7 +285,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;He immediately began arranging a marriage for her. She&#39;s far too young for that. Father and I argued constantly about it. It was all I could do to postpone his plans.&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;I guess that&#39;s the one good outcome of all this. Elena is safe.&quot;
 
-[[Speak with Giodeo Pentaccio]] </tw-passagedata><tw-passagedata pid="22" name="Ask Annelia about last night" tags="" position="937.5,550" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Could you give us your account of last night?&quot;
+[[Speak with Giodeo Pentaccio]] </tw-passagedata><tw-passagedata pid="22" name="Ask Annelia about last night" tags="" position="900,1350" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Could you give us your account of last night?&quot;
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- &quot;Of course, detective, anything for you.&quot; She winked, in a half-hearted flirt. 
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- &quot;Well, Giodeo and I spent the evening in our suite. Signore Pentaccio had guests to meet for business, it wouldn&#39;t do to disturb them.&quot;
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- &quot;What can I say about the evening? We made tea, Giodeo went to sleep early, I read my novels by lamplight. Besides the shouting downstairs, all was right in the world.&quot;
@@ -282,7 +309,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Thank you, my lady. I believe that&#39;s all the questions I have for the moment.&quot;
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- &quot;I hope I&#39;ve assisted your investigation, detective.&quot; She curtseyed, fluttering her eyelashes with feeble seduction.
 
-[[Speak with Annelia Pentaccio]] </tw-passagedata><tw-passagedata pid="23" name="Ask Annelia about relationship with victim" tags="" position="1062.5,550" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;May I inquire about your relationship with the deceased?&quot;
+[[Speak with Annelia Pentaccio]] </tw-passagedata><tw-passagedata pid="23" name="Ask Annelia about relationship with victim" tags="" position="1025,1350" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;May I inquire about your relationship with the deceased?&quot;
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- Her cheeks flushed momentarily as she frowned. &quot;Ah yes, well, to be honest, my relationship with Giodeo&#39;s father was...strained.&quot;
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- &quot;You see, I&#39;m not noble by birth. My parents own a dry goods trading company. We got lucky with a number of excellent deals, and made a small fortune.&quot;
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- &quot;It was at a small business party -- my family was invited by his father -- when I met Giodeo. He was... smitten with me.&quot; She smiled to herself. 
@@ -294,7 +321,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] Pentaccio -- &quot;Besides, someone must watch over poor Elena now. That must fall to Giodeo and I.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Hopefully as a sister, and not a bargaining chip.
 
-[[Speak with Annelia Pentaccio]] </tw-passagedata><tw-passagedata pid="24" name="Ask Elena about last night" tags="" position="687.5,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Would you give me your version of events from last night?&quot;
+[[Speak with Annelia Pentaccio]] </tw-passagedata><tw-passagedata pid="24" name="Ask Elena about last night" tags="" position="650,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Would you give me your version of events from last night?&quot;
 (click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- &quot;Yes. It...isn&#39;t very interesting. I was in my room, sleeping.&quot;
 (click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- &quot;At about midnight, I heard father shouting across the hall.&quot;
 (click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- &quot;When I arose and looked out of my room, everyone was banging on his bedroom door. Except Gio, he came later.&quot;
@@ -313,12 +340,12 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Thank you, signora, you&#39;ve been very helpful.&quot;
 (click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- A subtle bow, more of a head nod. Then she returned to staring into space.
 
-[[Speak with Elena Pentaccio]] </tw-passagedata><tw-passagedata pid="25" name="Ask Elena about relationship with victim" tags="" position="812.5,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;This may be a difficult subject, but may I ask what your relationship was like with your father?&quot;
+[[Speak with Elena Pentaccio]] </tw-passagedata><tw-passagedata pid="25" name="Ask Elena about relationship with victim" tags="" position="775,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;This may be a difficult subject, but may I ask what your relationship was like with your father?&quot;
 (click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- A slight aversion of the eyes, a slight purse of the lips. &quot;Father was... our only parent. After mother died.&quot;
 (click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- &quot;He was unliked by most. Cruel to me and Gio.&quot; 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Very direct. But I don&#39;t feel any hatred behind those words...or much of anything.
 
-[[Speak with Elena Pentaccio]] </tw-passagedata><tw-passagedata pid="26" name="Ask Stomp about last night" tags="" position="2025,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Would you kindly tell me your version of the events last night?&quot;
+[[Speak with Elena Pentaccio]] </tw-passagedata><tw-passagedata pid="26" name="Ask Stomp about last night" tags="" position="2000,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Would you kindly tell me your version of the events last night?&quot;
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- The gnome massaged the bridge of his nose. &quot;It really is quite simple.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Please enlighten us.&quot;
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- &quot;Pentaccio, Rodillus, Caleshi, and I were discussing business terms. It lasted all night, so we needed to use the guest quarters.&quot;
@@ -339,14 +366,14 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet blinked, jotting that down in his notebook.
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- &quot;All business holdings of Pentaccio&#39;s now fall to the boy, Giodeo, &quot; he practically growled in anger. &quot;I bet he was involved too. Everyone else in the whole house should be arrested!&quot;
 
-[[Speak with Tribaxet Stomp]] </tw-passagedata><tw-passagedata pid="27" name="Ask Stomp about relationship with victim" tags="" position="2125,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Could you tell me about your relationship with the deceased? Just business?&quot;
+[[Speak with Tribaxet Stomp]] </tw-passagedata><tw-passagedata pid="27" name="Ask Stomp about relationship with victim" tags="" position="2150,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Could you tell me about your relationship with the deceased? Just business?&quot;
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- &quot;Ugh. Yes, just business. I couldn&#39;t stand the man, to be honest. Foul mannered, instantly hostile. But a shrewd businessman. It was wise of me to back his ventures.&quot;
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- &quot;I stood to inherit a small fortune, but now he - and that fortune - are dead.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;So, you had no reason to harm him?&quot;
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- The gnome glared daggers into me. &quot;Of course not, what a stupid idea!&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Of course.&quot;
 
-[[Speak with Tribaxet Stomp]] </tw-passagedata><tw-passagedata pid="28" name="Ask Caleshi about last night" tags="" position="1775,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;What can you tell me about last night?&quot;
+[[Speak with Tribaxet Stomp]] </tw-passagedata><tw-passagedata pid="28" name="Ask Caleshi about last night" tags="" position="1750,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;What can you tell me about last night?&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- &quot;Not much. Us adults were discussing business. The kids went to bed. Then we went to bed. Then Pentaccio died.&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- He sniffed and rubbed his nose on his sleeve.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Ah, yes... Well, did you hear anything strange during the night? Other than Pentaccio&#39;s shout.&quot;
@@ -359,7 +386,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Well, thank you for your input.&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- He responded with another sniff, then went back to looking out the window.
 
-[[Speak with Matazario Caleshi]] </tw-passagedata><tw-passagedata pid="29" name="Ask Caleshi about relationship with victim" tags="" position="1900,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;What was your relationship with Lord Pentaccio?&quot;
+[[Speak with Matazario Caleshi]] </tw-passagedata><tw-passagedata pid="29" name="Ask Caleshi about relationship with victim" tags="" position="1875,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;What was your relationship with Lord Pentaccio?&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- Sniff. &quot;Business partner. Didn&#39;t know him too well.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;How long have you known him?&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- &quot;I guess for years.&quot;
@@ -367,7 +394,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- He shrugged. &quot;Nope.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Magical. Thank you.&quot;
 
-[[Speak with Matazario Caleshi]] </tw-passagedata><tw-passagedata pid="30" name="Ask Rodillius about last night" tags="" position="1537.5,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Would you kindly tell me your version of the events last night?&quot;
+[[Speak with Matazario Caleshi]] </tw-passagedata><tw-passagedata pid="30" name="Ask Rodillius about last night" tags="" position="1500,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Would you kindly tell me your version of the events last night?&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;Of course. We spent the evening in the dining room, discussing all sorts of business. We&#39;re all associated with Pentaccio&#39;s businesses in some way or another.&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;The night went long. I called my husband to tell him I&#39;d be out all night. He&#39;s a dear, offered to hire me a private gondola to get me home, but I was much too exhausted.&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;I got a room to myself, and went to sleep. Then that terrible shriek! Pentaccio wailed, then silence. I had to investigate.&quot;
@@ -378,13 +405,13 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Thank you, that is very helpful.&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;Of course it was, dear.&quot;
 
-[[Speak with Fio Rodillius]] </tw-passagedata><tw-passagedata pid="31" name="Ask Rodillius about relationship with victim" tags="" position="1662.5,525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Could you tell me about your relationship with the deceased? Just business?&quot;
+[[Speak with Fio Rodillius]] </tw-passagedata><tw-passagedata pid="31" name="Ask Rodillius about relationship with victim" tags="" position="1625,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Could you tell me about your relationship with the deceased? Just business?&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;Yes. Terribly uninteresting. He has a beautiful family, however. A shame about his late wife. And late self, I guess.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;How long have you known him?&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;Quite a few years, I should think. When I met him, his children were still tots. But I only got into business with him in the past few months.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Thank you, madam. That should be all.&quot;
 
-[[Speak with Fio Rodillius]] </tw-passagedata><tw-passagedata pid="32" name="Investigate Rug" tags="" position="475,875" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;A shard of glass. Thin, about an inch in each direction. There&#39;s... blood I believe on the edge.&quot;
+[[Speak with Fio Rodillius]] </tw-passagedata><tw-passagedata pid="32" name="Investigate Rug" tags="" position="450,1675" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;A shard of glass. Thin, about an inch in each direction. There&#39;s... blood I believe on the edge.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Someone dropped a wine glass?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Or threw it. A wine glass would suit, based on the curve. No broken glass anywhere, must have been cleaned hastily&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;No wine stains on the carpet, or anywhere else I can see.&quot; The cadet scratched his beard, lips pursed.
@@ -393,12 +420,12 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;So at any point in the night.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- His face dropped slightly. &quot;Ah, right you are, sir. I guess it doesn&#39;t narrow it down...&quot;
 
-[[Enter Dining Room]] </tw-passagedata><tw-passagedata pid="33" name="Investigate Portraits" tags="" position="675,875" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;They&#39;re all rather... gloomy, don&#39;t you think?&quot;
+[[Enter Dining Room]] </tw-passagedata><tw-passagedata pid="33" name="Investigate Portraits" tags="" position="650,1675" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;They&#39;re all rather... gloomy, don&#39;t you think?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The portraits showed various Pentaccios from various eras. They all shared the same austere expression. Runs in the family. 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The largest portrait was recent. The family stood against a stark black background. A short, stocky man sat in a chair while his wife hovered behind him. A boy about 14 and a girl about 10 stood joylessly beside the chair. 
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Exceptional painters do know how to capture melancholy, don&#39;t they.&quot;
 
-[[Enter Dining Room]] </tw-passagedata><tw-passagedata pid="34" name="Investigate Table" tags="" position="575,1000" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The darkwood table was a mess of papers. Technical, professional. Half-drawn contracts, inscrutible ledgers. It will take a while to sort through...
+[[Enter Dining Room]] </tw-passagedata><tw-passagedata pid="34" name="Investigate Table" tags="" position="550,1800" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The darkwood table was a mess of papers. Technical, professional. Half-drawn contracts, inscrutible ledgers. It will take a while to sort through...
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Hmm, it looks like signor Pentaccio and his associates were discussing the sale of a company.&quot; Thank the stars for Ryker&#39;s business classes.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;This document and this one contradict each other, this one names different beneficiaries of a sale. This one just says &quot;over my dead body.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet poured through the documents for a few minutes. Eventually, a sigh. &quot;There is not much information here. They were deciding who would get what, should the company be liquidated.&quot;
@@ -406,7 +433,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Ultimately, Pentaccio owned the business, so he had the final decision, but I don&#39;t think they came to a conclusion. Not before, er, the murder.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;It&#39;s still good to know that any of them could have a motive, depending on Pentaccio&#39;s whims.&quot; 
 
-[[Enter Dining Room]] </tw-passagedata><tw-passagedata pid="35" name="Speak with Rat" tags="" position="850,875" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- We crouched by the hole we saw the rat flee through. I smeared the rich cheese around the entrance, while Ryker prepared his animal speaking spell.
+[[Enter Dining Room]] </tw-passagedata><tw-passagedata pid="35" name="Speak with Rat" tags="" position="825,1675" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- We crouched by the hole we saw the rat flee through. I smeared the rich cheese around the entrance, while Ryker prepared his animal speaking spell.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Get ready, I think I hear it coming out.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The rat poked his nose out of the hidey hole just as the cadet finished his spell.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- Surprisingly, he began to speak in a deep gutteral chirping, like a bear mimicking a cat. 
@@ -419,7 +446,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Also, he&#39;d like to be called Sibilo&quot;
 (click: ?page)[==Sibilo -- The rat seemed to nod, before gathering the last of the cheese and rushing back into the hole.
 
-[[Enter Lower Hallway]] </tw-passagedata><tw-passagedata pid="36" name="Enter Restroom" tags="" position="1775,1125" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The water closet was small, but modern. A flush toilet with a large cistern hanging crookedly above. A marble washbasin with a pump.
+[[Enter Lower Hallway]] </tw-passagedata><tw-passagedata pid="36" name="Enter Restroom" tags="" position="1750,1925" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The water closet was small, but modern. A flush toilet with a large cistern hanging crookedly above. A marble washbasin with a pump.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Sir, I&#39;ve read that the cistern is a common place to hide incriminating evidence. It would behoove us to look!&quot; 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Go ahead, champ, let&#39;s see what you can find.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet grinned widely as he approached the toilet. The grin dropped markedly when the 5-foot tall man tried to reach the cistern.
@@ -432,7 +459,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 //After finding a note regarding a smuggler&#39;s hiding place//
 [[Investigate Smuggler&#39;s Hide]]
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="37" name="Enter Back Yard" tags="" position="2100,1150" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- A back yard, fairly overgrown.
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="37" name="Enter Back Yard" tags="" position="2075,1950" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- A back yard, fairly overgrown.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Classy decorations, shame it&#39;s so unkempt...&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Agreed. Let&#39;s do a thorough search out here--&quot; I was interupted by movement in the bushes under the window.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- It&#39;s...a badger? 
@@ -447,7 +474,7 @@ Once you&#39;ve been to every room, investigated every point, and spoken to ever
 
 [[Investigate Bush]] //Only available after getting past badgers//
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="38" name="Gather Everyone in the Parlor" tags="" position="700,1400" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Thank you all for joining me.&quot; The parlor was full of uncomfortable faces, as everyone squished into the sofas and chairs. 
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="38" name="Gather Everyone in the Parlor" tags="" position="675,2200" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Thank you all for joining me.&quot; The parlor was full of uncomfortable faces, as everyone squished into the sofas and chairs. 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The Pentaccios, Elena, Giodeo, and Annelia. The business partners, Stomp, Caleshi, and Rodillius. Me, Ryker, and the lieutenant. All cozy up together.
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- The gnome&#39;s red face (currently squished somewhat by Caleshi&#39;s elbow) quickly grew redder. &quot;This is an affront. Get on with it.&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- &quot;Indeed. You found evidence of occult magic, I gather. Slap the cuffs on the Elena girl and release us.&quot;
@@ -470,7 +497,7 @@ Who or what could have cast the spell
 [[The raven statuette]]
 [[Tribaxet Stomp&#39;s primal magic-&gt;wrong1]]
 [[Elena&#39;s training books-&gt;wrong1]]
-[[The ripped blanket-&gt;wrong1]]</tw-passagedata><tw-passagedata pid="39" name="Speak to Badgers" tags="" position="2050,1300" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;We need to check those bushes, so we need to get past those badgers. I don&#39;t think I can pull my pistol on one of these buggers.&quot;
+[[The ripped blanket-&gt;wrong1]]</tw-passagedata><tw-passagedata pid="39" name="Speak to Badgers" tags="" position="2025,2100" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;We need to check those bushes, so we need to get past those badgers. I don&#39;t think I can pull my pistol on one of these buggers.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Let&#39;s see if diplomacy will get us anywhere.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet begins casting his animal speaking spell. The badgers perk their heads up, confused. After a moment, he speaks - this time in a strange squirrel-like chittering, mixed with snorts like a bull.
 (click: ?page)[==Badgers -- The badgers flinch, bewildered. But they begin responding in kind.
@@ -482,14 +509,14 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Yes, it seemed like the gnome was asking about Pentaccio. I think he was trying to dig up dirt from the badgers, as it were. Habits and behaviours.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Good work, champ. That&#39;s some fine diplomatic husbandry.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;One other thing, sir. They say their names are Lucia and Gucia. They&#39;d like us to refer to them as such.&quot;
-(click: ?page)[==Badgers -- Lucia and Gucia stood proudly, before stepping aside, allowing us to investigate the bush.</tw-passagedata><tw-passagedata pid="40" name="Investigate Bush" tags="" position="2175,1325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Looks like there was some commotion here last night.&quot;
+(click: ?page)[==Badgers -- Lucia and Gucia stood proudly, before stepping aside, allowing us to investigate the bush.</tw-passagedata><tw-passagedata pid="40" name="Investigate Bush" tags="" position="2150,2125" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Looks like there was some commotion here last night.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;First, a blue wool blanket, directly underneath the guest room window. Looks like the wool tore in the corner. &quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Next to the blanket is a big indent, about a foot across, like someone small fell on their ass. A tallfolk child, or a gnome or half-foot.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Then some bare footprints, leading from the indent, to the badger burrow. Then more, much further spaced, leading towards the back door...&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;I see a spellprint next to the burrow, where the footprints first stop. Primal magic, probably innate to the caster rather than learned. It&#39;s similar to a speak with animals spell, except... I think it can only allow communication with burrowing creatures.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;If I remember correctly, many gnomes have an innate magic ability to talk to burrowing animals. A kinship, they call it. I can&#39;t guarantee, but the shape of the spellprint would fit with gnomish magic.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Nice work, champ. This paints a pretty direct picture.&quot;
-(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet turned to the badgers and chirped a farewell (I believe). Lucia and Gucia bowed deeply as we exited their bushes.</tw-passagedata><tw-passagedata pid="41" name="Investigate Smuggler&#39;s Hide" tags="" position="1775,1250" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The note said there was a cache behind the toilet. Let&#39;s take a closer look.
+(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet turned to the badgers and chirped a farewell (I believe). Lucia and Gucia bowed deeply as we exited their bushes.</tw-passagedata><tw-passagedata pid="41" name="Investigate Smuggler&#39;s Hide" tags="" position="1750,2050" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The note said there was a cache behind the toilet. Let&#39;s take a closer look.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- We carefully checked the walls behind the fixture, and the toilet itself. It wasn&#39;t until we looked at the floor that we found a small compartment.
 
 =================================
@@ -497,7 +524,7 @@ Who or what could have cast the spell
 //- Severio and Ryker find a secret hiding spot behind the toilet. Under the floorboard is a small cubby, a foot across, that connects to a secret door outside.
 - Inside is an obsidion raven statuette. Ryker identifies it as a magic item which can cast a death spell, then disintegrates. There&#39;s a note that indicates there was two statuettes at some point.//
 
-[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="42" name="Investigate Body" tags="" position="1200,1050" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Well, this is the unpleasant part to murder. The bodies.&quot;
+[[Go to List of Rooms]] </tw-passagedata><tw-passagedata pid="42" name="Investigate Body" tags="" position="1175,1850" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Well, this is the unpleasant part to murder. The bodies.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet just gulped and nodded, pursing his lips lest his breakfast leaves them.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- We tested the body with magic and forensics, as best we could do without a coroner at hand.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Time of death....well, that&#39;s an interesting question. Things don&#39;t match up.&quot;
@@ -508,7 +535,7 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet beamed proudly. Of course, I already knew about death magic, it comes with the territory, but good to see the big guy have his moment.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Good work, champ. But we can&#39;t know for sure without a spellprint.&quot;
 
-[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="43" name="Investigate for Magic" tags="" position="1125,1200" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet waved his hands in grand gestures, reciting arcane words and channeling his humours. 
+[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="43" name="Investigate for Magic" tags="" position="1100,2000" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet waved his hands in grand gestures, reciting arcane words and channeling his humours. 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- I never understood why arcanists needed to be so... dramatic with everything. Surely a formula can be adjusted to a flick of the wrist and a single word.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- A few moments, then done. His eyes glowed a neon purple. A bit excessive.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Hmm, no residual magic on the body. Not unusual, it would dissipate shortly after being used. The spellprint should answer some questions.&quot; The cadet was most in his element when talking magic.
@@ -524,7 +551,7 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;As certain as I can be, sir. Almost all spells need a line of effect, even glass blocks the majority of them. The spellprint would be in view of the body.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;In that case, perhaps Pentaccio wasn&#39;t in his room at the time. Difficult with a locked door, but not impossible. We should take a closer look of the room.&quot;
 
-[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="44" name="Speak with Dead" tags="" position="1300,1200" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Shall we try and talk to him? The Speak with Dead spell will let us pose some questions, though not many, and you never really know what kind of answers you&#39;ll get.&quot;
+[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="44" name="Speak with Dead" tags="" position="1275,2000" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Shall we try and talk to him? The Speak with Dead spell will let us pose some questions, though not many, and you never really know what kind of answers you&#39;ll get.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Sounds like a plan. I&#39;ve never really gotten a chance to see the spell in action. Usually the guard mages have cast it before I get on the scene. When I do get a chance, I rarely have a buddy with me that can cast it.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Let&#39;s do it!&quot; With a grin, he begins his incantation.
 (click: ?page)[==Body -- Within moments, the body shudders. Still quite dead, but the lungs inflate, fighting against rigor mortis. 
@@ -547,7 +574,7 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;And, well, why would he fear his wife?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;That&#39;s a good question. Perhaps she was the only one who could cow him. It&#39;s a stretch, but more likely than a ghost.&quot;
 
-[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="45" name="Investigate Room" tags="" position="1425,1200" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Check the windows and floorboards, I&#39;ll look at the ceiling and walls.&quot;
+[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="45" name="Investigate Room" tags="" position="1400,2000" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Check the windows and floorboards, I&#39;ll look at the ceiling and walls.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Right away, sir.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- We poked around at the room, knocking on boards.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- After a few minutes, I found something. A seam in the wallpaper. It looked like a poor overlapping job, but there was a small gap between the wall and the floorboards.
@@ -563,7 +590,7 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;That doesn&#39;t really narrow down the list, unfortunately.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;No, I guess not...&quot; The cadet frowns in thought. &quot;
 
-[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="46" name="Investigate Bedside Table" tags="" position="1375,1050" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Bedside drawer. The top was bare, but let&#39;s see what&#39;s in the drawers.
+[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="46" name="Investigate Bedside Table" tags="" position="1350,1850" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Bedside drawer. The top was bare, but let&#39;s see what&#39;s in the drawers.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Top drawer, a pair of photographs.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Well this is interesting. A photo of his late wife, that&#39;s understandable. This second one, it looks like a photograph of the construction of this manor. &quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Look, there in the corner, that&#39;s Pentaccio, Giodeo, and Elena. The children look much younger, this must have been taken maybe ten years ago.&quot;
@@ -573,7 +600,7 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;What could that mean? Behind the toilet in this house?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;It couldn&#39;t hurt to give it a close look.&quot;
 
-[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="47" name="Investigate Desk" tags="" position="2550,900" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The desktop was clean and tidy, only a mathematics text open. The desk had one drawer. 
+[[Enter Lord Pentaccio&#39;s Room]] </tw-passagedata><tw-passagedata pid="47" name="Investigate Desk" tags="" position="2525,1700" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- The desktop was clean and tidy, only a mathematics text open. The desk had one drawer. 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- I go to open it, but it doesn&#39;t open. Which is particularly strange, as it has no lock. 
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- I poke my head under the desk; it seems someone installed a simple hook latch on the bottom. Not the best security. Who installed it?
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Unlatching the hook, I opened the drawer to find more schoolbooks. Geography, literature...occultism? 
@@ -584,7 +611,7 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Not at all. The most offensive spell in this book is one to make your nose itch.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Well, this explains the occult aura the lieutenant mentioned, but doesn&#39;t quite give us decisive evidence either way.&quot;
 
-[[Enter Elena&#39;s Bedroom]] </tw-passagedata><tw-passagedata pid="48" name="Investigate Makeup Table" tags="" position="2162.5,875" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;I, er uh, don&#39;t know if I&#39;m comfortable going through a woman&#39;s powdering, uh, zone.&quot;
+[[Enter Elena&#39;s Bedroom]] </tw-passagedata><tw-passagedata pid="48" name="Investigate Makeup Table" tags="" position="2125,1675" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;I, er uh, don&#39;t know if I&#39;m comfortable going through a woman&#39;s powdering, uh, zone.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Nonsense champ, we&#39;re professionals, and can do a professional job.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Perfumes and paints, I had no clue what any of this was.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Wedged between the vanity mirror and its frame was a printed letter. A lithograph of the couple, and text.
@@ -592,7 +619,7 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Not the groom&#39;s family? I wonder if Lord Pentaccio was against the wedding... or just a miser.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;That&#39;s an interesting question. Living under the roof of a disapproving father, or father-in-law, could constitute a motive.&quot;
 
-[[Enter Giodeo and Annelia&#39;s Room]] </tw-passagedata><tw-passagedata pid="49" name="Investigate Tea Set" tags="" position="2350,875" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet gives a gentle gasp as we look at the tea table. &quot;Look sir, they have Medlian tea!&quot;
+[[Enter Giodeo and Annelia&#39;s Room]] </tw-passagedata><tw-passagedata pid="49" name="Investigate Tea Set" tags="" position="2325,1675" size="100,100">(click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- The cadet gives a gentle gasp as we look at the tea table. &quot;Look sir, they have Medlian tea!&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Remember cadet, we&#39;re here to look, not sample.&quot;
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Ah, well at least I can remember the smell.&quot; He leans down to smell the loose tea jar, then wrinkles his nose.
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;Augh, no way, this is absolutely not Medlian tea.&quot;
@@ -606,7 +633,7 @@ Who or what could have cast the spell
 (click: ?page)[==(text-colour:#faa2c1)[Arnogast Ryker] -- &quot;What about you, sir?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Er, it&#39;s nothing to worry about. At any rate, let&#39;s note this down, shall we?&quot;
 
-[[Enter Giodeo and Annelia&#39;s Room]] </tw-passagedata><tw-passagedata pid="50" name="The raven statuette" tags="" position="700,1525" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;This.&quot; I placed the raven statuette on the coffee table, scanning the crowd for recognition.
+[[Enter Giodeo and Annelia&#39;s Room]] </tw-passagedata><tw-passagedata pid="50" name="The raven statuette" tags="" position="675,2325" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;This.&quot; I placed the raven statuette on the coffee table, scanning the crowd for recognition.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- Giodeo and Annelia raise eyebrows. Rodillius seems unimpressed. Caleshi purses his lips. Stomp&#39;s eyes go wide, and he shuts up for a moment.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- And Elena is silent, as always.
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;A raven? Is it magic?&quot;
@@ -630,11 +657,11 @@ Who witnessed Tribaxet Stomp outside his room last night?&#39;&#39;
 [[Elena Pentaccio-&gt;wrong2]]
 [[Matazario Caleshi-&gt;wrong2]]
 [[Lord Pentaccio-&gt;wrong2]]
-[[Lucia and Gucia]]</tw-passagedata><tw-passagedata pid="51" name="wrong1" tags="" position="850,1450" size="100,100">&quot;INCORRECT&quot; TEXT HERE
+[[Lucia and Gucia]]</tw-passagedata><tw-passagedata pid="51" name="wrong1" tags="" position="825,2250" size="100,100">&quot;INCORRECT&quot; TEXT HERE
 
-[[Gather Everyone in the Parlor]] </tw-passagedata><tw-passagedata pid="52" name="wrong2" tags="" position="850,1575" size="100,100">&quot;INCORRECT&quot; TEXT
+[[Gather Everyone in the Parlor]] </tw-passagedata><tw-passagedata pid="52" name="wrong2" tags="" position="825,2375" size="100,100">&quot;INCORRECT&quot; TEXT
 
-[[The raven statuette]] </tw-passagedata><tw-passagedata pid="53" name="Lucia and Gucia" tags="" position="700,1675" size="100,100">(click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- &quot;The BADGERS? Unbelievable! You would believe those two?&quot;
+[[The raven statuette]] </tw-passagedata><tw-passagedata pid="53" name="Lucia and Gucia" tags="" position="675,2475" size="100,100">(click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- &quot;The BADGERS? Unbelievable! You would believe those two?&quot;
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;Badgers? Like the ones in our garden?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;That&#39;s exactly right. My friend here can use magic to talk to animals. The badgers claim signor Stomp was interrogating them about Lord Pentaccio&#39;s private life.&quot;
 (click: ?page)[==(text-colour:#8ce99a)[Tribaxet Stomp] -- &quot;Absurd! You should know as well as I, testimony magically sourced is not valid in court!&quot;
@@ -660,9 +687,9 @@ Who witnessed Tribaxet Stomp outside his room last night?&#39;&#39;
 [[The torn sheets-&gt;wrong3]]
 [[The broken glass]]
 [[The spellprint in the staircase-&gt;wrong3]]
-[[The badgers&#39; testimony-&gt;wrong3]]</tw-passagedata><tw-passagedata pid="54" name="wrong3" tags="" position="875,1675" size="100,100">&quot;INCORRECT&quot; TEXT
+[[The badgers&#39; testimony-&gt;wrong3]]</tw-passagedata><tw-passagedata pid="54" name="wrong3" tags="" position="850,2475" size="100,100">&quot;INCORRECT&quot; TEXT
 
-[[Lucia and Gucia]] </tw-passagedata><tw-passagedata pid="55" name="The broken glass" tags="" position="700,1825" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;In your suitcase, you had one of Lord Pentaccio&#39;s wine glasses, shattered into pieces.&quot;
+[[Lucia and Gucia]] </tw-passagedata><tw-passagedata pid="55" name="The broken glass" tags="" position="675,2625" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;In your suitcase, you had one of Lord Pentaccio&#39;s wine glasses, shattered into pieces.&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;W-what does that have to do with anything?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;It just so happens that we found a shard of glass under the table, which fits perfectly into the shards in your bag.&quot;
 (click: ?page)[==(text-colour:#b197fc)[Fio Rodillius] -- &quot;I...I don&#39;t understand. How could that have anything to do with... anything?&quot;
@@ -690,9 +717,9 @@ Who witnessed Tribaxet Stomp outside his room last night?&#39;&#39;
 [[The broken glass-&gt;wrong4]]
 [[Stomp&#39;s primal magic -&gt;wrong4]]
 [[The sleeping draught]]
-[[Elena&#39;s occult magic-&gt;wrong4]]</tw-passagedata><tw-passagedata pid="56" name="wrong4" tags="" position="900,1800" size="100,100">&quot;INCORRECT&quot; text
+[[Elena&#39;s occult magic-&gt;wrong4]]</tw-passagedata><tw-passagedata pid="56" name="wrong4" tags="" position="875,2600" size="100,100">&quot;INCORRECT&quot; text
 
-[[The broken glass]] </tw-passagedata><tw-passagedata pid="57" name="The sleeping draught" tags="" position="675,1975" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Signora Annelia, do you have trouble sleeping?&quot;
+[[The broken glass]] </tw-passagedata><tw-passagedata pid="57" name="The sleeping draught" tags="" position="650,2775" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Signora Annelia, do you have trouble sleeping?&quot;
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] -- &quot;No, I can&#39;t say I do.&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Then why do you have this sleeping draught?&quot; 
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] -- &quot;I- you see-&quot;
@@ -717,9 +744,9 @@ Who witnessed Tribaxet Stomp outside his room last night?&#39;&#39;
 [[The sleeping draught-&gt;wrong5]]
 [[The wedding invite]]
 [[The broken glass-&gt;wrong5]]
-[[The raven statuette-&gt;wrong5]]</tw-passagedata><tw-passagedata pid="58" name="wrong5" tags="" position="875,1975" size="100,100">&quot;Incorrect&quot; text
+[[The raven statuette-&gt;wrong5]]</tw-passagedata><tw-passagedata pid="58" name="wrong5" tags="" position="850,2775" size="100,100">&quot;Incorrect&quot; text
 
-[[The sleeping draught]] </tw-passagedata><tw-passagedata pid="59" name="The wedding invite" tags="" position="625,2125" size="100,100">(click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;Our wedding invitation? What could that possibly have to do with this?&quot;
+[[The sleeping draught]] </tw-passagedata><tw-passagedata pid="59" name="The wedding invite" tags="" position="600,2925" size="100,100">(click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;Our wedding invitation? What could that possibly have to do with this?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Let&#39;s read the headline. Giodeo Pentaccio of the Diamante Pentaccios, and Annelia Della of the Alicandrite Dellas are to wed, this coming yadda yadda yadda.&quot;
 (click: ?page)[==(text-colour:#ffb7d3)[Annelia Pentaccio] -- The buxom woman began to shrink back in her seat. I&#39;m on the right track.
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;Perhaps there are two Della families in Alicandria?&quot;
@@ -764,9 +791,9 @@ Who witnessed Tribaxet Stomp outside his room last night?&#39;&#39;
 [[The wedding invitation-&gt;wrong6]]
 [[The Spellprint-&gt;wrong6]]
 [[The building photograph]]
-[[Caleshi&#39;s testimony-&gt;wrong6]]</tw-passagedata><tw-passagedata pid="60" name="wrong6" tags="" position="850,2100" size="100,100">Incorrect text
+[[Caleshi&#39;s testimony-&gt;wrong6]]</tw-passagedata><tw-passagedata pid="60" name="wrong6" tags="" position="825,2900" size="100,100">Incorrect text
 
-[[The wedding invite]] </tw-passagedata><tw-passagedata pid="61" name="The building photograph" tags="" position="650,2275" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;This photograph shows you and the Pentaccio family at the construction of the house. You&#39;ve been family friends for years, haven&#39;t you.&quot;
+[[The wedding invite]] </tw-passagedata><tw-passagedata pid="61" name="The building photograph" tags="" position="625,3075" size="100,100">(click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;This photograph shows you and the Pentaccio family at the construction of the house. You&#39;ve been family friends for years, haven&#39;t you.&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- &quot;Perhaps. What&#39;s your point?&quot;
 (click: ?page)[==(text-colour:#5065e0)[Ferdando Severio] -- &quot;If you were present at the construction, it stands to reason that you knew about the secret staircase, as well as the smuggling spot.&quot;
 (click: ?page)[==(text-colour:#ffe066)[Matazario Caleshi] -- He stopped leering. 
@@ -796,7 +823,1004 @@ Who witnessed Tribaxet Stomp outside his room last night?&#39;&#39;
 (click: ?page)[==(text-colour:#c0c0c0)[Elena Pentaccio] -- Last in the house was young Elena and Giodeo. Once everyone was gone, they embraced. The first we&#39;ve seen of Elena&#39;s emotions.
 (click: ?page)[==(text-colour:#d2b68a)[Giodeo Pentaccio] -- &quot;It&#39;s okay, Elena. We&#39;ll be okay.&quot;
 
-&#39;&#39;The End&#39;&#39;</tw-passagedata></tw-storydata>
+&#39;&#39;The End&#39;&#39;</tw-passagedata><tw-passagedata pid="62" name="Variable Settings" tags="" position="300,100" size="100,100">(set: $Severio = &quot;(text-colour:#1a528e)[Ferdando Severio] --&quot;)
+(set: $Ryker = &quot;(text-colour:#7b2f13)[Arnogast Ryker] --&quot;)
+(set: $Valani = &quot;(text-colour:#410b65)[Lady Vanna di Valani] --&quot;)
+(set: $Masamhan = &quot;(text-colour:#3f4457)[Lt. Derem Masamhan] --&quot;)
+(set: $Elena = &quot;(text-colour:#231f2e)[Elena Pentaccio] --&quot;)
+(set: $Giodeo = &quot;(text-colour:#6c5b9c)[Giodeo Pentaccio] --&quot;)
+(set: $Annelia = &quot;(text-colour:#8f5eac)[Annelia Pentaccio] --&quot;)
+(set: $Stomp = &quot;(text-colour:#507741)[Tribaxet Stomp] --&quot;)
+(set: $Caleshi = &quot;(text-colour:#878c27)[Matazario Caleshi] --&quot;)
+(set: $Rodillius = &quot;(text-colour:#be761e)[Fio Rodillius] --&quot;)
+(set: $Badgers = &quot;(text-colour:#6c6358)[Badgers] --&quot;)
+(set: $LuciaGucia = &quot;(text-colour:#6c6358)[Lucia and Gucia] --&quot;)
+(set: $Rat = &quot;(text-colour:#79b475)[Rat] --&quot;)
+(set: $Sibilo = &quot;(text-colour:#79b475)[Sibilo] --&quot;)
+(set: $Body = &quot;(text-colour:#79b475)[Pentaccio&#39;s Body] --&quot;)
+
+[[Start from the beginning -&gt;Lady Valani&#39;s]]
+
+---
+To skip to a particular subchapter
+[[Skip Lady Valani&#39;s-&gt;Arrive at the Station]] 
+[[Skip the station-&gt;Arrive at the Manor]]
+[[Skip Pentaccio&#39;s Room-&gt;Decide which room to investigate (upper floor)]] </tw-passagedata><tw-passagedata pid="63" name="Lady Valani&#39;s" tags="" position="500,100" size="100,100">$Severio It was the crack of dawn. After Lady Valani&#39;s summons, Ryker and I caught the first gondola to her manor. 
+$Severio We lowered ourselves into the plush seats opposite her grand desk. 
+$Ryker The cadet, Ryker, sat straight up and down as normal. His face was tight, and a bead of sweat crawled down the back of his neck. I gave him a nod and a smile to relax him, but I don&#39;t think he understood. 
+$Valani Despite the hour, the elven woman was wide awake and energized. Perhaps she never went to bed. She was dressed in her police uniform, even at home. She buzzed through papers strewn across her desk, then sighed. 
+$Valani &quot;Boys, thank you for seeing me so early. I only got word of this case a few hours ago, and I couldn&#39;t chance anyone else taking it.&quot;
+$Severio &quot;Ah &#39;course. That&#39;s why you pay us.&quot;
+$Ryker &quot;Yes, commissioner, sir!&quot; He barked, a bit too loud.
+$Valani The commissioner stifled a chuckle into a sigh. &quot;Ryker, it&#39;s Lady Valani to you, not commissioner. And besides, I prefer just Valani.&quot;
+$Ryker The cadet nodded, face reddening slightly. 
+
+[[So what do you got for us?-&gt;Ask What]]
+</tw-passagedata><tw-passagedata pid="64" name="Head to the Station" tags="" position="1175,100" size="100,100">$Valani &quot;Alright. I know this isn&#39;t a lot to work off of, but I have faith in you both.&quot;
+$Severio &quot;We won&#39;t let you down, V.&quot;
+$Ryker &quot;At least we&#39;ll try, commissioner, sir!&quot; He saluted. Valani sighed.
+
+================
+
+$Severio As the cadet and I walked to the station, the city was just waking up.. 
+$Severio Bleary morning greetings, the smells of cafe breakfasts, taxi boats paddling down the canals, neonian signs flickering on.
+$Ryker The cadet whistled. A tall-man noble from Alicandria, spectacular wizard, with dreams of joining his kingdom&#39;s force. Just crossing five feet tall, packed solid with muscle. Brains and brawn, with no street smarts to speak of. Valani informed me he&#39;d be apprenticing under me two months ago. I was furious.
+$Ryker &quot;Sir, how do you want to tackle the interrogation? Divide and conquer, or work together?
+$Severio &quot;Let&#39;s stick together, take our time. We&#39;ll only get the one chance to talk to them, so we better make it count.&quot;
+$Ryker The cadet grinned from ear to ear. &quot;Roger that. Let&#39;s kick ass, sir!&quot;
+$Severio I couldn&#39;t help but grin back. The big guy&#39;s grown on me.
+
+[[Arrive at the Station]]</tw-passagedata><tw-passagedata pid="65" name="Arrive at the Station" tags="" position="1375,100" size="100,100">$Severio The police station bustled with weary officers and guardsmen. Paperwork from the night before was being sorted at the last minute, the drunk tank was being emptied, someone spilled coffee over a clerk&#39;s mailbox.
+$Masamhan Lieutenant Masamhan waved us over to his desk, by the witness waiting room. The turbanned tall-man looked even more disheveled than usual.
+$Severio Even through the thick darkwood door, I could hear a high-pitched voice shouting bloody murder about being let go. 
+$Masamhan The lieutenant made an exasperated noise. &quot;The commissioner called ahead. Six witnesses. His teenage daughter, his adult son and daughter-in-law, and three business partners.&quot;
+$Ryker &quot;What were business partners doing at his manor overnight?&quot;
+$Masamhan He began to speak but the high voice interrupted him. &quot;Ugh. That&#39;s one of them. It&#39;s your privilege to ask them.&quot;
+$Masamhan The lieutenant led us to the waiting room, where six people waited. A woman in tight clothes comforted a seemingly-emotionless teenage girl, while a gaunt man, her brother, paced back and forth. A gnomish man in foppish attire threatened a guard, while a grey-haired dwarven woman and a shoddily-dressed man spoke quietly in the corner.
+$Stomp The gnome whirled around to us. &quot;Are you the godsdamned detective?&quot;
+$Severio &quot;Uh, I guess we are.&quot;
+$Stomp &quot;FINALLY! This is ABSURD! I am a busy man and have been MIS-TREAT-TED.&quot; He clapped at each syllable. 
+$Ryker The cadet and I sidebarred. &quot;So who should we talk to first?&quot;
+
+[[The Pentaccio family-&gt;Interrogate Pentaccios]]
+[[The business partners-&gt;Interrogate Partners]]
+==============
+Once you have read both entires above, [[Head to the Manor-&gt;Head to the Manor]] </tw-passagedata><tw-passagedata pid="66" name="Ask What" tags="" position="700,100" size="100,100">$Severio &quot;So, V, what do you got for us?&quot;
+$Valani &quot;Murder of a minor noble lord. Lord Paotro Pentaccio. Nouveau riche, likely dealing in smuggling. The details are sparse, but witnesses say it happened overnight, and magic was likely involved.&quot;
+$Severio &quot;That&#39;s why we&#39;ve got the big guy, here.&quot; 
+$Ryker The cadet tried to not look pleased. Hiding emotions wasn&#39;t his forte. Magical investigations, however, he was the best.
+$Valani &quot;It was called in a few hours ago. We sent out a guard to investigate, a private island in the north lagoon. Six other people were in the manor at the time.
+$Valani &quot;The guard said he scouted the perimeter and didn&#39;t see signs of forced entry, but I&#39;d like you to double check regardless.&quot;
+
+
+[[Why do you need us?-&gt;Why Us]]
+[[What can you tell us about the murder?-&gt;Ask Valani about Murder]]
+[[What can you tell us about the witnesses?-&gt;Ask Valani about Witnesses]]
+=============
+Once you&#39;ve read all three choices above, [[Head to the Station]]</tw-passagedata><tw-passagedata pid="67" name="Why Us" tags="" position="825,300" size="100,100">$Severio &quot;So, why are you calling on your loyal lap dogs rather than relying on your police?&quot;
+$Valani &quot;I&#39;ve been following a smuggling ring for months, full of some of the city&#39;s brass. Even the Merchant Prince could be involved. The trail has been leading to Pentaccio&#39;s construction business, and I can&#39;t risk one of the noble families getting their pocketbooks involved.
+$Severio Ryker and I are House Detectives; personal investigators of the house of Lady Vanna di Valani. She just happens to be the chief police commissioner of Diamante. But in a city like Diamante, coin is king.
+$Severio Between the warring noble houses and ambassadors from the richest cities in the Mesamadre, police cases often become solved by the highest bidder.
+$Severio &quot;So there&#39;s a time limit, I suppose.&quot;
+$Valani The elven woman nodded. &quot;There will be an official investigation, but unless we&#39;ve got solid evidence of a culprit, it&#39;ll get swept under the rug.&quot;
+$Ryker The cadet let out a frustrated snort. His sense of honour outshone anyone else in the city.
+
+[[Return to previous screen-&gt;Ask What]]</tw-passagedata><tw-passagedata pid="68" name="Ask Valani about Murder" tags="" position="700,300" size="100,100">$Severio &quot;What can you tell us about the murder?&quot;
+$Valani &quot;Not much, I&#39;m afraid.&quot; The elven woman rested her head on her folded hands. &quot;Happened in the middle of the night, the victim&#39;s scream woke the household. Witnesses claim there was magic on the scene.&quot;
+$Severio I nodded in Ryker&#39;s direction. &quot;Lucky we&#39;ve got the best |tooltip&gt;[seeker&lt;span class=&quot;tooltiptext&quot;&gt;Police officers trained in detecting and identifying magic. Normally, magically-gathered information is invalid in court, except when approved by a seeker&lt;/span&gt;] in the biz.&quot;
+$Ryker &quot;Hardly, sir. I&#39;m still in training.&quot; He scoffed, failing to hide his delight.
+$Valani &quot;Apparently both the victim and his teenage daughter were covered in occult auras. At least, that&#39;s according to another witness, we really only have his word on it.&quot;
+$Valani She sighs. &quot;I hate magical murders. Everything gets muddy when you start breaking the laws of physics.&quot;
+$Ryker &quot;It&#39;s more difficult, that&#39;s true, sir. But magic has rules. a science. It&#39;s not breaking the laws of physics, it&#39;s expanding them.&quot; He never seemed so confident as when he was talking about magical theory. 
+$Ryker &quot;With the recent discovery of the concept of |tooltip&gt;[spellprints&lt;span class=&quot;tooltiptext&quot;&gt;When ether is manipulated, it leaves a detectable presence in the air, called a spellprint. These show the origin location of the magic -- usually the caster -- and can help determine the purpose of the magic, but not its target.&lt;/span&gt;], we can empirically determine the identity and origin of magic cast in the last two days!&quot;
+$Valani &quot;Be that as it may, this isn&#39;t Alicandria, where you&#39;re from. We still use archaic common law, and the commonfolk have never been too clear on the laws of magic. Legally, it gets messy.&quot;
+$Ryker The cadet reclined in his chair, and looked at the ceiling. &quot;At the very least, we can make a case.&quot;
+
+[[Return to previous screen-&gt;Ask What]]
+
+</tw-passagedata><tw-passagedata pid="69" name="Ask Valani about Witnesses" tags="" position="575,300" size="100,100">$Severio &quot;What can you tell us about the witnesses at the scene?&quot;
+$Valani &quot;Six in total. His teenage daughter; his son and daughter-in-law; and three business partners.
+$Severio &quot;Business partners? Why were they there overnight?&quot;
+$Valani &quot;I don&#39;t know. What I do know is that we&#39;ve brought them to the station for questioning, but we can&#39;t hold them for long. I&#39;ll need the two of you to interrogate them before heading to the manor.&quot;
+$Severio &quot;We can do that.&quot;
+$Valani &quot;One of them is most likely the killer. Be careful.&quot;
+$Severio Ryker and I nodded at each other. &quot;We always are!&quot;
+
+[[Return to previous screen-&gt;Ask What]]</tw-passagedata><tw-passagedata pid="70" name="Interrogate Pentaccios" tags="" position="1300,300" size="100,100">$Severio We turned to the family members. 
+$Giodeo The gaunt man stepped up nervously.&quot;G-good morning, detective. A pleasure to meet you, though I wish it was under better circumstances.&quot;
+$Severio &quot;Thank you signore, my condolences for your loss.
+$Giodeo He blinked, confused for just a moment by what I said. &quot;Ah, that is very kind of you.&quot;
+$Giodeo Clearing his throat, he gestured to the two women sitting behind him. &quot;My name is Giodeo Pentaccio. This is my sister, Elena, and my wife, Annelia. We are... the remaining members of the Pentaccio family.&quot; 
+$Annelia The young woman in tight clothing -- a socialite if there ever was one -- gave a half-bow, her arm still around the teenage girl. &quot;Charmed, I&#39;m sure.&quot; She shifted her weight onto her left foot, but quickly shifted back while hiding a wince. Interesting.
+$Elena The teenage girl sat quietly, looking at her feet even as we approached. Her expression was blank, either in shock or frightfully bored.
+$Severio &quot;Thank you, may we ask you a few questions?&quot; My notebook was already in my hands.
+
+[[What can you tell me about last night&#39;s events?-&gt;Pentaccio Last Night]]
+[[What were your relationships with the victim?-&gt;Pentaccio Relationships]]
+[[Return to the previous screen-&gt;Arrive at the Station]] 
+</tw-passagedata><tw-passagedata pid="71" name="Interrogate Partners" tags="" position="1500,300" size="100,100">$Severio We approached the three business partners; a grumbling gnomish man, a dwarven noblewoman fanning herself, and a rather shady-looking tall-man. &quot;Good morning, I am Detetive Severio, may I ask--&quot;
+$Stomp &quot;FINALLY. I have already EXPLAINED everything to the GUARD over there, and now I&#39;m LATE.&quot;
+$Rodillius &quot;Yes, can we hurry? My husband must be terribly worried about me.&quot; She overtly twisted a well-decorated wedding ring around her finger to draw attention. 
+$Caleshi The scruffy man just looked me up and down, gauging me. There was a dangerous glint in his eyes. I hope the guards searched him for a weapon...
+$Severio &quot;I&#39;ll endeavour to be quick.&quot;
+
+
+[[What can you tell me about last night&#39;s events?-&gt;Partners Last Night]]
+[[What was your relationships like with Lord Pentaccio?-&gt;Partners Relationships]]
+[[Return to previous screen-&gt;Arrive at the Station]] 
+</tw-passagedata><tw-passagedata pid="72" name="Pentaccio Last Night" tags="" position="1175,450" size="100,100">$Severio &quot;I hate to pick at fresh wounds, but I must ask you to describe the events of last night.&quot;
+$Giodeo &quot;Yes, of course. Unfortunately, I don&#39;t believe we&#39;ll be much help.&quot;
+$Annelia &quot;Lord Pentaccio had those three over for dinner,&quot; she nodded towards the haughty dwarf woman, the shaggy man, and the gnomish fop. &quot;They were discussing something about Pentaccio&#39;s Construction, the company Paotro established.&quot;
+$Giodeo &quot;We&#39;re not exactly privy to his business plans. He didn&#39;t hide them from us or anything, but he had no interest in involving us.&quot; His eyes wandered as he pursed his lips.
+$Annelia &quot;Giodeo and I retired to our suite early. Paotro and his partners were shouting something fierce, but I can&#39;t imagine about what.&quot;
+$Giodeo &quot;We had our tea, then I went to bed early.&quot; 
+$Annelia &quot;I read my novels for a bit, but came to bed shortly after.&quot; She took a few steps around the table, trying to hide a slight limp. How did she get injured?
+$Giodeo The gaunt man looked to Elena, who was still staring at the floor. &quot;Elena, dear, did you see or hear anything strange?&quot;
+$Elena The girl looked up, still apathetic. She spoke slowly. &quot;No. When the shouting started, I went to my room to do my schoolwork.&quot;
+$Severio &quot;Did any of you hear what they were arguing about?&quot;
+$Annelia &quot;I didn&#39;t, myself.&quot; She looked to Giodeo, who nodded.
+$Giodeo &quot;Like I said, it was related to business plans, but it didn&#39;t much concern us.&quot;
+
+[[What happened next?-&gt;Pentaccio The Murder]]</tw-passagedata><tw-passagedata pid="73" name="Pentaccio Relationships" tags="" position="1325,450" size="100,100">$Severio &quot;This may be a difficult question, but, well, I need to ask you how your relationships were with the deceased.&quot;
+$Severio The teenage girl didn&#39;t give any reaction, but the married couple exchanged pained glances.
+$Giodeo &quot;I have to admit... our relationship was strained. For all of us.&quot;
+$Ryker The cadet raised an eyebrow, but kept quiet.
+$Giodeo &quot;For Annelia and I, well, we only recently wed a few months ago. Father was... uncooperative.&quot;
+$Annelia &quot;I am not from noble blood, simply merchant class. I wasn&#39;t good enough.&quot; Her expression started tense, but slowly softened, as if realizing that was no longer an impediment.
+$Giodeo &quot;He would berate us every chance he got. And we would fight about Elena constantly.&quot;
+$Severio &quot;What exactly did you argue about?&quot;
+$Elena The girl&#39;s face darkened almost imperceptably.
+$Giodeo &quot;Father wanted to... arrange a marriage for her.&quot;
+$Annelia &quot;We told him that such practices were old fashioned, that Elena was too young, that she was too...&quot; she trailed off, glancing at Elena. Elena didn&#39;t react.
+$Giodeo &quot;Thankfully, now we can call that off. And, I guess, we no longer need to save up for our own manor...&quot; His expression bounced between relieved and ashamed.
+$Severio &quot;I appreciate your candor. I will endeavour to bring this case to a close quickly, for your peace of mind.&quot;
+$Giodeo The gaunt, tired man bowed. 
+
+[[Return to previous screen -&gt;Interrogate Pentaccios]] </tw-passagedata><tw-passagedata pid="74" name="Head to the Manor" tags="" position="1700,100" size="100,100">$Severio The cadet and I made our farewells, and departed.
+$Ryker &quot;What did you make of the Pentaccio family, sir?&quot;
+$Severio &quot;A strange family, to be certain. All three of them have potential motives, and none seem particularly put off by Lord Pentaccio&#39;s death.&quot;
+$Ryker &quot;The girl, Elena, was strange. She seemed almost comatose sometimes. The poor thing has lost both her mother and father.&quot;
+$Severio &quot;I know occultism isn&#39;t a crime here, but it&#39;s worrying when combined with Stomp&#39;s assessment of occult magic being on both Elena and the body.&quot;
+$Ryker &quot;And what of the business partners? They all claim to have lost money due to Pentaccio&#39;s death, but the webs nobles weave can be pretty complex.&quot; The cadet, an ex-noble himself, nodded to himself.
+$Severio &quot;Hopefully we can find proof to the claims at the manor, but I&#39;m not holding my breath.
+$Severio We headed to the edge of the district, where Lady Valani had a taxi boat waiting. Across the lagoon we went, towards Pentaccio&#39;s island.
+
+[[Arrive at the Manor]]</tw-passagedata><tw-passagedata pid="75" name="Pentaccio The Murder" tags="" position="1175,575" size="100,100">$Severio &quot;What happened after the shouting match?&quot;
+$Annelia &quot;They argued long into the night. Apparently, they missed the last taxi boat to the city, so Paotro set them up in the servants&#39; quarters.&quot;
+$Giodeo &quot;We... we haven&#39;t had servants in our employ for many years, so those rooms were empty. Anyway, we had already gone to bed when we heard...&quot; he trailed off, it seemed like he had trouble continuing.
+$Annelia &quot;We heard Paotro cry out. It woke us up. It was quick, then silent. Elena, dear, did you hear anything before the scream?&quot;
+$Elena She gave the faintest shrug. &quot;No. It was quiet. I was practicing my magic.&quot;
+$Giodeo The man sucked air through his teeth. &quot;Elena, you were supposed to have stopped that occult business. It&#39;s not good for your health.&quot;
+$Ryker The cadet&#39;s eyes perked up, and we shared a quick glance. I knew he was listening carefully.
+$Elena &quot;I was trying to contact mother.&quot; This statement, told so dispassionately, caused pained looks in Giodeo and Annelia&#39;s faces.
+$Giodeo &quot;Our mother passed two years ago.&quot; He lowered his voice, &quot;Elena hasn&#39;t been the same since. Her death was never explained, she just disappeared and was declared dead. Elena has been learning |tooltip&gt;[occult magic&lt;span class=&quot;tooltiptext&quot;&gt;Occultism is one of several traditions of magic, dealing with the spirits and the mind. While not illegal in Diamante, it is heavily stigmatized.&lt;/span&gt;] to try and contact the dead, but...&quot;
+$Elena &quot;...Giodeo doesn&#39;t approve.&quot;
+$Ryker The cadet leant in, whispering &quot;contacting the dead is not beyond the realm of possibility with occultism, but it would require years of training.
+$Severio &quot;What can you you tell me about after he cried out?&quot;
+$Annelia &quot;Well, I was startled awake, of course. It was all I could do to dash out of bed in my nightgown. Giodeo... must have been fast asleep, it took him a moment to get up.&quot;
+$Giodeo &quot;By the time I realized what was happening, everyone was already in the hallway, knocking on my father&#39;s door. It was locked, but I have a copy of the master key in our suite, so I opened it. It&#39;s the only copy, to my knowledge.&quot;
+
+[[What did you see when you opened the door?-&gt;Pentaccio Opened Door]]</tw-passagedata><tw-passagedata pid="76" name="Pentaccio Opened Door" tags="" position="1225,725" size="100,100">$Severio &quot;I don&#39;t mean to bring up disturbing memories, but can you tell me what you saw after you opened the door?&quot;
+$Giodeo The gaunt man shuddered slightly. &quot;It was...unpleasant. Father had twisted himself up in the bedsheets, arms and legs stiff as a board.&quot;
+$Severio Hmm, rigor mortis so soon after death? That&#39;s unusual...
+$Annelia &quot;I went downstairs to telephone the police, as soon as we realized he was dead.&quot;
+$Giodeo &quot;Signor Stomp, the gnome man over there, said he could detect magic, and that both Elena and Father were covered in occult auras.&quot;
+$Elena &quot;...I didn&#39;t cast any magic on Father.&quot;
+$Giodeo &quot;Stomp made quite the fuss... but other than that, nothing else happened during the night until the police arrived in the morning.&quot;
+$Severio &quot;Would any of you know the order people arrived at your father&#39;s door?&quot;
+$Giodeo &quot;I was the last person there. No clue why I was so groggy.&quot; He yawned behind his hand. He still seemed quite groggy, but that made sense if he&#39;s been up most of the night.
+$Annelia &quot;I believe me and Fio -- Signora Rodillius -- were the first to arrive. The rest showed up shortly after, but I don&#39;t know the order.&quot;
+$Elena The emotionless girl said nothing.
+$Severio &quot;...well, thank you for your statements. This has been enlightening.&quot;
+
+[[Return to previous screen -&gt;Interrogate Pentaccios]] </tw-passagedata><tw-passagedata pid="77" name="Notes" tags="" position="225,300" size="200,200">* Have a smugglers den, connected to a hatch in the grass outside. The small footprints don&#39;t lead anywhere near.
+* Go up the secret staircase. &quot;How the hell did we miss a secret door? It&#39;s like detective 101.&quot;</tw-passagedata><tw-passagedata pid="78" name="Partners Last Night" tags="" position="1500,450" size="100,100">$Severio &quot;What can you tell me about the night before the death of Lord Pentaccio? For example, why were the three of you present over night?&quot;
+$Stomp The foppish gnome sighed with dramatic exasperation. &quot;It was business. Now *unfinished* business.&quot;
+$Rodillius &quot;We are all stakeholders in Pentaccio&#39;s construction company, in one way or another. I am a middleman for a concrete vendor.
+$Stomp &quot;I am a *particularly busy* architect.&quot;
+$Caleshi The scruffy man grunted. &quot;Subcontractors.&quot;
+$Severio &quot;What &#39;business&#39; did you have together last night?&quot;
+$Rodillius &quot;We were discussing terms of a particular proposal.&quot;
+$Severio &quot;And what proposal was that?&quot;
+$Stomp &quot;The bastard was selling the company.&quot; He huffed, getting redder in the face. &quot;We stayed up nearly the whole night arguing about it.&quot;
+$Rodillius. &quot;What Stomp means is, we had a lively discussion.&quot;
+$Stomp &quot;He couldn&#39;t just sell without telling us. We&#39;re *partners* after all.
+$Severio &quot;May I ask, what happens now that Pentaccio is dead?&quot;
+$Rodillius &quot;We never came to a signed agreement. It&#39;s a matter for the courts. But suffice to say, detective, none of us profit from Pentaccio&#39;s death.&quot;
+$Severio &quot;No?&quot;
+$Caleshi &quot;We&#39;re fucked.&quot;
+$Stomp &quot;Indeed. I stood to inherit a small fortune from the sale, but now that&#39;s history.&quot;
+$Rodillius &quot;That is, *IF* Pentaccio sold.&quot; Her voice raised.
+$Caleshi Before the gnome and dwarf could begin their argument again, the scruffy man loomed above them and simply reiterated: &quot;We&#39;re fucked.&quot;
+
+[[What happened after your...discussion?-&gt;Partners The Murder]]
+</tw-passagedata><tw-passagedata pid="79" name="Partners Relationships" tags="" position="1700,450" size="100,100">$Severio &quot;Beyond your business partnerships, may I ask, what was your relationship like with Lord Pentaccio?&quot;
+$Severio The three of them exchanged pained glances with grimmaces and pursed lips. 
+$Rodillius &quot;He was... -&quot;
+$Stomp &quot;-an odius bastard-&quot;
+$Caleshi &quot;-but he made us money.&quot;
+$Rodillius The noblewoman covered her mouth with her fan. &quot;Suffice to say, there will be few people mourning the loss of Paotro Pentaccio.&quot;
+$Severio &quot;Understood. Thank you for your candor.&quot;
+
+[[Return to previous screen -&gt;Interrogate Partners]] </tw-passagedata><tw-passagedata pid="80" name="Partners The Murder" tags="" position="1500,600" size="100,100">$Severio &quot;Would you kindly tell me what happened immediately following your... discussion?&quot;
+$Rodillius &quot;We lost track of time. The last taxi boat had sailed before we realized the hour.&quot;
+$Stomp &quot;Pentaccio had two guest rooms. Rodillius got one. Caleshi and I had to share. Had to fight tooth and nail just to get a room divider placed for privacy.&quot;
+$Rodillius &quot;I called my husband. Such a darling, he offered to wake his servant to row a boat over, but I was much too exhausted.&quot; 
+$Stomp &quot;Then we went to sleep. Until the scream.&quot;
+$Severio &quot;What happened after you heard the scream?&quot;
+$Rodillius &quot;Well, I woke quite suddenly. A terrible wailing, then silence. I needed to investigate, so I ran upstairs.&quot;
+$Stomp &quot;As did I&quot;
+$Caleshi The scruffy man nodded in agreement.
+$Severio &quot;So you all rushed upstairs together?&quot;
+$Severio The three partners each took a beat to answer, glancing off in a different direction. An interesting reaction.
+$Stomp &quot;Well, I didn&#39;t see either of them. Rodillius was already upstairs when I got there, and Caleshi came right after me.&quot;
+$Rodillius &quot;That lovely young Annelia was at the bedroom door. We banged and banged, but it was locked from the inside. By then, young Giodeo and Elena had also arrived.&quot;
+$Stomp &quot;Eventually the boy got a key from his room.&quot;
+
+[[What happened when Giodeo unlocked the door?--&gt;Partners Opened Door]]</tw-passagedata><tw-passagedata pid="81" name="Partners Opened Door" tags="" position="1500,725" size="100,100">$Severio &quot;Can you tell me what you saw when the door opened?&quot;
+$Rodillius &quot;It was truly horrible! Pentaccio was completely naked! Oh, and dead. Twisted up in his sheets, terribly unbecoming. His arms and legs were stiff as a board.&quot;
+$Stomp &quot;Face scrunched in fear. Unpleasant.&quot;
+$Caleshi The scruffy man nodded, sucking in through his teeth.
+$Severio ...that&#39;s strange, if he had just died. Rigor mortis shouldn&#39;t have set in that quickly.
+$Ryker The cadet caught that too. We exchanged a glance. Something to investigate.
+$Stomp &quot;Luckily, I am multi-talented in many gnomish magics. I can detect magical auras, and both Pentaccio and that girl, Elena, were covered in occult magic!&quot;
+$Ryker The cadet stepped in. &quot;Occult magic? Could you determine what spell was active?&quot;
+$Stomp &quot;Well, uh, no. But the auras were clear as day to me. That girl killed her father!&quot;
+$Severio &quot;A bold claim. We&#39;ll need to corraborate this, of course.&quot;
+$Rodillius &quot;Sadly, none of the rest of us are magically talented. We had no idea there was any magic about.&quot;
+$Caleshi The scruffy man shrugged. &quot;Not a droppa&#39; magic.&quot;
+$Stomp &quot;Be glad you couldn&#39;t, it was a very ugly feeling.&quot;
+$Ryker &quot;How strong would you say these auras were?&quot; 
+$Stomp &quot;Well, uh, I&#39;m not certain. I have never compared auras before. But they were there, I swear to you!&quot;
+$Severio &quot;Is there anything else you can tell me about the scene?&quot;
+$Rodillius &quot;No, unfortunately. The police were called, and we waited in the parlor until they arrived. They brought us here, and, well, here we are, darling.&quot;
+$Severio &quot;Then thank you, this has been very enlightening.&quot;
+
+[[Return to previous screen -&gt;Interrogate Partners]] </tw-passagedata><tw-passagedata pid="82" name="Arrive at the Manor" tags="" position="1900,100" size="100,100">$Severio Mud clung to our boots as we trudged up the hill to the manor. Several muddy footprints led from the manor grounds to the docks.
+$Severio The small manor was dignified, though a bit neglected. The complex paint detailing was chipped, the ornate eaves sagged. 
+$Ryker The cadet&#39;s demeaner fell after taking in the scene.
+$Severio &quot;Disappointed, champ?&quot;
+$Ryker &quot;It&#39;s just that, well, I was expecting... grander. Like home.&quot; His voice trailed a bit, then cleared his throat dramatically and sternly marched ahead.
+$Severio We reached the porch, more dilapidated than it seemed from afar.
+$Severio &quot;You ready for a real case, cadet?&quot;
+$Ryker The cadet shrugged, but his face transformed into a huge grin. &quot;Yes, sir!&quot;
+
+[[Enter the Manor]]</tw-passagedata><tw-passagedata pid="83" name="Enter the Manor" tags="" position="2100,100" size="100,100">$Severio We used the key granted to us by the police. The foyer was a bit more maintained than the outside. A darkwood staircase led up to the second floor; a handsome grandfather clock tocked dutifully in the corner. Some plants barely clung to life in a pair of vases.
+$Ryker &quot;Where should we start?&quot;
+$Severio &quot;The victim&#39;s bedroom, I would imagine. They said it was up the stairs, first door on the right.&quot; 
+
+(link-reveal:&quot;Investigate Grandfather Clock&quot;)[
+$Severio The grandfather clock was in the new Liberty style, featuring a curved pendulum that seemed to defy physics. A recent purchase.]
+
+(link-reveal:&quot;Investigate Vases&quot;)[
+$Ryker &quot;Nobody has watered these in weeks.&quot;
+$Severio &quot;It really adds to the drab ambience, doesn&#39;t it?&quot;]
+
+[[Go to Pentaccio&#39;s Bedroom]]</tw-passagedata><tw-passagedata pid="84" name="Go to Pentaccio&#39;s Bedroom" tags="" position="2300,100" size="100,100">$Severio The room was spartan, unadorned. Decoration was clearly for impressing company, not for personal enjoyment.
+$Severio And there he was, the victim, bedsheets tangled from his death throes. He looked like he&#39;d be an imposing presence, if he was alive. As for now...
+$Severio ...I wonder when I got so used to seeing corpses.
+$Ryker The cadet&#39;s face was composed, but an audible gulp escaped his throat. It&#39;s still fresh for him. I wonder how long that lasts...
+$Severio &quot;We should look over the body. I&#39;m no coroner, but with luck I can make some deductions.&quot;
+$Ryker &quot;If he was killed by occult magic, there should be evidence of that. I&#39;ll see if I can detect a spellprint around.&quot;
+$Severio &quot;Good call, kid. Let&#39;s start.&quot; 
+$Severio Besides the bed, a side table with a drawer, and an armoire, were the only furnishings in the room. At least this keeps investigating simple.
+
+(link-reveal:&quot;Investigate the body&quot;)[
+$Severio &quot;My least favorite part of murder. The bodies.&quot;
+$Ryker The cadet just gulped and nodded. 
+$Severio We investigated the body as best we could. No sign of wounds or poisons. I measured the temperature of the body, color of the blood pooling, and stiffness of the limbs.
+$Severio &quot;This is interesting. Things don&#39;t match up.&quot;
+$Ryker &quot;What do you mean?&quot;
+$Severio &quot;Rigor mortis, livor mortis, and algor mortis. The stiffness, color, and temperature of the body.
+$Severio &quot;Based on the temperature and pooling of the blood, the time of death was about 8 hours ago. But his muscles are completely limp, as though rigor mortis occured a day ago.&quot;
+$Ryker &quot;Oh, sir! That might lend credence to the occult spell theory. You see, there are some spells classified as death spells, which can cause instant death if the magic overwhelmes the victim. In such cases, I&#39;ve heard rigor mortis can be greatly expedited!&quot;
+$Ryker The cadet beamed. Of course, I already knew about death magic, it comes with the territory, but good to see the big guy get his confidence.
+$Severio &quot;Good work, champ. Let&#39;s take note.&quot;
+]
+
+(link-reveal:&quot;Investigate the bedside table&quot;)[
+$Severio The bedside table was bare, but the drawer had a few photographs inside.
+$Severio &quot;Let&#39;s see. A photo of his late wife, that&#39;s understandable. This second one, it looks like a photograph of the construction of this manor.&quot;
+$Ryker &quot;Look there, in the corner, there&#39;s the family. Lord Pentaccio, his wife, Elena, and Giodeo. The children look much younger, this must be ten years ago?&quot;
+$Severio &quot;And behind them, is that man Signor Caleshi?&quot;
+$Ryker &quot;Yes, that looks like him, ten years younger. They must be old family friends.&quot;
+$Severio &quot;Or at least old partners. There&#39;s some notes on the back. &#39;Cache in basement?&quot;
+$Ryker &quot;But there&#39;s no basement in this place... at least, not that I saw inside or outside.
+$Severio &quot;The ink is just as faded as the photo, I&#39;d wager it was written shortly after the picture was developed.&quot;
+$Ryker &quot;I&#39;ll keep an eye out for any staircases...&quot;
+]
+
+(link-reveal:&quot;Investigate the armoire&quot;)[
+$Severio We carefully opened the armoire doors. A row of modern suits hung off a beam, but little else was inside.
+]
+
+(link-reveal:&quot;Have Ryker detect magic&quot;)[
+$Severio &quot;Alright champ, you&#39;re up. Let&#39;s see if those spellprints you&#39;re on about are as helpful as you say.&quot;
+$Ryker The cadet grinned. &quot;You&#39;ll be pleased, I think!&quot; He waved his hands in grand gestures, reciting arcane words and channeling his humours. Arcanists are always so... dramatic
+$Ryker Once the spell was complete, his eyes glowed a neon purple. A bit excessive.
+$Ryker &quot;Hmm, let&#39;s see... No magic aura on the body, but auras dissipate quickly after a spell is cast, so that&#39;s not surprising. The spellprint is... uh...&quot;
+$Severio &quot;...champ?&quot;
+$Ryker The cadet looked around, kneeling to look under the bed and behind the armoire; out in the hallway and out the bedroom window. &quot;Sir, I... I don&#39;t see a spellprint.&quot;
+$Severio &quot;Is that strange?&quot;
+$Ryker &quot;Well, to cast any kind of magic, you need to manipulate the ether around you. You can&#39;t get around that. If there&#39;s no spellprint here, there was no spell cast in the last forty-eight hours, give or take.&quot;
+$Severio &quot;Could someone cast a spell in a different room and affect him here?&quot;
+$Ryker &quot;It&#39;s very unlikely. For most magic, you need to be able to see your target. A line of effect, it&#39;s called. They&#39;d have to be a very, very powerful caster to cast a spell that could kill from another room.&quot;
+$Severio &quot;And if that&#39;s the case, they&#39;d probably be powerful enough to cover their traces. We better hope there&#39;s another solution....&quot;
+]
+
+(link-reveal:&quot;Have Ryker magically speak with the corpse&quot;)[
+$Ryker &quot;Shall we try and speak with him? I can conjure the body&#39;s memories, which will let us pose some questions. Though, not many.&quot;
+$Severio &quot;Is this the kind of spell that Elena would use to talk to her late mother?&quot;
+$Ryker &quot;Not exactly. That kind of occult magic would commune directly with the departed soul. Sadly, I don&#39;t think it would&#39;ve worked like she hoped. Souls don&#39;t retain the full personality and memories of the living being.&quot;
+$Ryker &quot;The spell I know stimulates the brain of a recent corpse. I... I admit I haven&#39;t used it before. Not many chances to use it at school, so it&#39;s more of a theory.
+$Severio &quot;If you&#39;re okay with it...&quot;
+$Ryker &quot;Let&#39;s do it.&quot; He grimmaced and held his hands to the corpse, chanting incantations. 
+$Body Within moments, the body shuddered. Still quite dead, but the lungs inflate with a sickening gasp.
+$Ryker &quot;Alright sir, your turn.&quot;
+$Severio &quot;Let&#39;s start with an obvious one. Who killed you?&quot;
+$Body The corpse releases air through the vocal cords to produce an uncanny voice.
+$Body &quot;My wife.&quot;
+$Severio The cadet and I exchanged glances. Wasn&#39;t his wife long dead?
+$Severio &quot;Then, how did your wife kill you?&quot;
+$Body Another grotesque inhale. &quot;Came back as a ghost. Smothered me.&quot;
+$Severio Curiouser and curiouser. Rarely does a ghost appear after several years. Even rarer does a ghost try smothering. Plus, this body didn&#39;t die from smothering.
+$Ryker The cadet strains his neck, focused on the spell. &quot;Sir, I think I can only hold it for one more question.&quot;
+$Severio &quot;What do you remember right before your death?&quot;
+$Body An inhale, much weaker this time. &quot;A click. The door opened. A flash of light. Then my wife...&quot;
+$Body The voice trailed off.
+$Ryker With a heave, Ryker let his arms go limp. Slightly panting, he turned to me. &quot;I&#39;m sorry sir, that&#39;s all I can do.&quot;
+]
+
+---
+
+Once you&#39;ve investigated all four above, the following unlocks
+[[Discuss your Findings]]</tw-passagedata><tw-passagedata pid="85" name="Discuss your Findings" tags="" position="2475,100" size="100,100">$Severio Once I was confident we had found everything we were going to find, we regrouped in the hallway.
+$Severio &quot;So what did we learn? 
+$Ryker The cadet skimmed his notes. &quot;Victim likely died from death magic, but there was no spellprint, so...that&#39;s still unclear.... 
+$Ryker &quot;The victim thinks his wife&#39;s ghost smothered him, but he wasn&#39;t smothered...
+$Ryker &quot;...And a photo of the manor being built says something about there being a cache behind the toilet.&quot;
+$Severio &quot;This isn&#39;t a lot to go off of. It could be that the victim wasn&#39;t in his bed when he died, but it would be hard to wrap the sheets around him like that.&quot;
+$Severio &quot;Or something killed him that wasn&#39;t magical... But we didn&#39;t see any signs of poison or other foreign bodies.&quot;
+$Severio &quot;I think we should investigate the rest of the house. Let&#39;s start with upstairs, the move downstairs. And we shouldn&#39;t forget about the water closet&quot;
+$Ryker &quot;Agreed.&quot;
+
+[[Decide which room to investigate (upper floor)]] </tw-passagedata><tw-passagedata pid="86" name="Open the compartment" tags="delete" position="3425,575" size="100,100">$Severio The cubby was about two feet across. A wooden crate fit snuggly inside. We carefully extracted it, and jimmied it open.
+$Severio Inside was filled with hay, and on the left side of the box, a foot-long obsidian statuette of a raven. The raven held a small gemstone in its mouth. There was an indentation in the hay for a second, missing statuette.
+$Ryker The cadet cast his magic detection spell, looking the statuette over.
+$Ryker &quot;Sir, I think we have a murder weapon. This raven is enchanted.&quot; He puts gloves on, and gingerly picks it up, turning it round and round. 
+$Ryker &quot;Huh, this is scary. It can be used to cast a spell. By itself, I mean; the user doesn&#39;t need to be able to cast spells.&quot;
+$Severio &quot;What kind of spell?&quot;
+$Ryker The cadet looked at me. &quot;An occult death spell. Specifically, one that conjures up the victim&#39;s greatest fear and tries to scare them to death.&quot; He gave a small shudder.
+$Severio &quot;That could explain seeing his wife as a ghost, though that&#39;s a strange greatest fear...&quot;
+$Ryker &quot;The statuette only has enough magic for one casting. You&#39;d point it at the victim, say the incantation, and it&#39;d happen instantly. Then it&#39;d crumble into dust.&quot;
+$Severio &quot;What&#39;s the incantation?&quot;
+$Ryker &quot;Er, I better not say it while holding it.&quot; He put it back in the crate and closed the lid. 
+$Severio &quot;It&#39;s concerning that Pentaccio had this kind of thing in his house, and more concerning that there seemed to be a second one that&#39;s missing. If one of these things was used, would it leave a spellprint?&quot;
+$Ryker &quot;It would, yeah. And it would need to be in sight of the victim.&quot;
+$Severio &quot;So we&#39;re not much closer to determining how he died. Shame.&quot;
+$Ryker &quot;Well, where should we go next?&quot;
+
+[[Decide which room to investigate (ground floor)]]</tw-passagedata><tw-passagedata pid="87" name="Decide which room to investigate (upper floor)" tags="" position="2700,100" size="100,100">$Severio Which room should we investigate? 
+
+
+--The Upper Floor must be fully explored before the ground floor. --
+
+UPPER FLOOR
+
+[[Go to Elena&#39;s Room]]
+
+[[Go to Giodeo and Annelia&#39;s Suite]]
+
+[[Return to Lord Pentaccio&#39;s Room]]
+
+[[Go to the Office]]
+
+[[Go to the Large Guest Room]]
+
+[[Go to the Small Guest Room]]
+
+---
+
+Once you have fully explored the upper floor, 
+
+[[Decide which room to investigate (ground floor)]]
+</tw-passagedata><tw-passagedata pid="88" name="Go to the Dining Room" tags="" position="2250,900" size="100,100">$Severio The cramped dining room was dominated by a darkwood dining table, too big for the space. The table was covered with all sorts of documents, notepads, and empty wine bottles. Along the walls, portraits of Pentaccios leered down at us.
+$Severio A faint sparkle caught my eye as we entered. Something in the rug beneath the table.
+
+(link-reveal:&quot;Investigate the sparkle in the rug&quot;)[
+$Severio I knelt down to investigate. &quot;A shard of glass. Thin, about an inch in each direction. There&#39;s blood on the edge. Fresh, I&#39;d guess from last night.&quot;
+$Ryker &quot;Does it match the one we found in Mrs. Rodillius&#39; room?&quot;
+$Severio I check, and indeed it does. Other than the bloody edge, it fit perfectly.
+$Severio &quot;A match. But who&#39;s blood is this?&quot;
+$Ryker &quot;Unfortunately I don&#39;t have the equipment with me to do a magical determination. Could it be Mrs. Rodillius?&quot;
+$Severio &quot;As good a guess as any. Next we meet, we&#39;ll need to look at her hands for cuts.&quot;
+]
+
+(link-reveal:&quot;Investigate the portraits&quot;)[
+$Ryker &quot;They&#39;re all rather...gloom and doom, don&#39;t you think?&quot;
+$Severio The portraits showed various Pentaccios from various eras. They all shared the same gaunt, austere expression. Runs in the family.
+$Severio The largest painting was most recent. The family stood against a stark black field. Stocky Paotro sat in a chair while his wife hovered behind him. His children stood joylessly beside.
+$Ryker &quot;Exceptional painters do know how to capture melancholy, don&#39;t they...&quot;
+]
+
+(link-reveal:&quot;Investigate the documents&quot;)[
+$Severio The darkwood table was a mess of papers. Technical and professional, half-drawn contracts and inscrutible ledgers. Luckily I was a bank clerk in my past life.
+$Severio &quot;It looks like signor Pentaccio and associates were discussing the sale of his company, like the partners said.&quot;
+$Ryker &quot;You can tell that from a glance?&quot;
+$Severio &quot;It&#39;s the saddest skill I have.&quot; I looked through the rest of the papers. 
+$Severio &quot;These two documents contradict each other. These two have different beneficiaries of a sale. This one just says &#39;over my dead body&#39;.&quot;
+$Ryker &quot;Anything conclusive?&quot;
+$Severio &quot;No, not at all. I don&#39;t think there was any conclusion, not before the murder. But Tribaxet Stomp could have gained a lot from the sale. Matazario Caleshi and Fio Della -- that must be Fio Rodillius&#39; maiden name -- weren&#39;t going to be poor after the sale.&quot;
+$Ryker &quot;That doesn&#39;t really give any of them a motive, though if it all rested on Pentaccio&#39;s whims...&quot;
+$Severio &quot;...then all of them have potential motives.&quot;
+]
+
+---
+Once you&#39;ve searched everything in the room
+[[Decide which room to investigate (ground floor)]] </tw-passagedata><tw-passagedata pid="89" name="Return to Lord Pentaccio&#39;s Room" tags="" position="3200,400" size="100,100">$Severio We returned to the scene of the crime, but didn&#39;t find anything else of note.
+$Ryker &quot;So it appears he was killed by a death spell, but there&#39;s no sign of a spellprint.&quot;
+$Severio &quot;He said he thinks his wife killed him, but I highly doubt that...&quot;
+$Ryker &quot;And there was a photo of Pentaccio&#39;s family and Mr. Caleshi, with a note on the back saying something about a compartment behind the toilet.&quot;
+
+[[Decide which room to investigate (upper floor)]] </tw-passagedata><tw-passagedata pid="90" name="Go to the Water Closet" tags="delete" position="3425,700" size="100,100">$Severio We travel downstairs to the water closet. It was small, but modern. A flush toilet with a large cistern hanginging crookedly above. 
+$Ryker The cadet&#39;s eyes perked up. &quot;Sir! I&#39;ve read the cistern is a common place to hide incriminating evidence. Maybe that&#39;s the cache!&quot;
+$Severio &quot;Go ahead, champ, see what you can find.&quot;
+$Ryker The cadet grinned widely as he approached the toilet. The grin dropped markedly when the 5-foot tall man tried to reach the cistern. 
+$Ryker With a sheepish grin, he turned to me. &quot;Uh, sir...&quot;
+$Severio I think I stifled my laugh well, but the cadet glowered at me. I took his place, peering over the edge of the cistern. Nothing but water.
+$Severio &quot;The note said behind the toilet. Let&#39;s take a closer look.&quot;
+$Severio We carefully checked the walls behind the fixture, and the toilet itself. When we investigated the floor, we found a small compartment. 
+$Ryker &quot;Amazing!&quot;
+
+[[Open the compartment]]
+
+
+Once you&#39;ve searched everything in the room
+[[Decide which room to investigate (ground floor)]] </tw-passagedata><tw-passagedata pid="91" name="Go to the Foyer" tags="" position="2950,925" size="100,100">$Severio The foyer was as depressing as when we entered. Something about the grandfather clock struck me as odd. We should revisit it.
+
+(link-reveal:&quot;Investigate Grandfather Clock&quot;)[
+$Severio The grandfather clock was in the new Liberty style, featuring a curved pendulum that seemed to defy physics. A recent purchase.
+$Severio Something flickered in my mind. A piece of evidence we gathered that could relate to this clock. But what was it?
+
+(Note -- in the full game, this will prompt the player to pick from all of their gathered evidence, not just the ones below)
+
+(link-reveal: &quot;The map of the grounds&quot;)[
+$Severio No, that&#39;s not it...]
+
+(link-reveal: &quot;The broken glass &quot;)[
+$Severio No, that&#39;s not it...]
+
+(link-reveal: &quot;The obituary of Lady Pentaccio&quot;)[
+$Severio That&#39;s it. It said &#39;stored her at 2pm&#39;. What could that mean?
+$Severio &quot;Ryker, do you detect any magic from this clock?&quot;
+$Ryker &quot;Let me check... yes, yes I do. I sense it right behind the clock&#39;s face.&quot;
+$Severio I ran my fingers along the face&#39;s edge. Elegant gold-plated designs were embossed around the rim.
+$Severio The hands of the clock were very loose; they moved at the slightest touch. 
+$Severio I tried moving the hands to 2&#39;oclock. A click. The face shifted.
+$Ryker &quot;Sir, there&#39;s a hidden compartment!&quot; The face swung open, revealing a small ring box. 
+$Ryker &quot;That box is where the magic is coming from... An occult magic, but I can&#39;t figure out what kind. Please be careful, sir.&quot;
+$Severio Gently, I took the box, and lifted the lid. Inside was a brilliant gemstone, about half an inch across, glowing a faint orange. 
+$Severio &quot;Do you have any idea what this is?&quot;
+$Ryker The cadet concentrated hard on the gem, but shook his head. &quot;No clue, besides occult. Related to spirits and the mind. And it&#39;s powerful, possibly the strongest magic I&#39;ve ever seen in such a small thing.&quot;
+$Severio This was important to Lord Pentaccio, that much was clear. But what was this gem? I carefully replaced the lid and put the box in my inner jacket pocket. 
+]
+
+(link-reveal: &quot;Lord Pentaccio&#39;s rigor mortis&quot;)[
+$Severio No, that&#39;s not it...]
+
+
+]
+
+(link-reveal:&quot;Investigate Vases&quot;)[
+$Ryker &quot;Nobody has watered these in weeks.&quot;
+$Severio &quot;It really adds to the drab ambience, doesn&#39;t it?&quot;]
+
+[[Decide which room to investigate (ground floor)]] </tw-passagedata><tw-passagedata pid="92" name="Go to Elena&#39;s Room" tags="" position="2400,400" size="100,100">
+$Severio Elena&#39;s bedroom was quaint. Pink sheets and pastel frills. It didn&#39;t seem to fit the emotionless girl at the station.
+$Severo A few schoolbooks were spread out on a reading desk beside the frilly pink bed. An armoir hung ajar on the wall.
+$Ryker &quot;It seems a bit unbecoming to rifle through a young lady&#39;s things...&quot;
+$Severio &quot;This young lady is a murder suspect. Let&#39;s just be respectful.&quot;
+
+
+(link-reveal:&quot;Investigate the bed&quot;)[
+$Severio An extravagantly fluffy comforter covered the four-poster bed. It was neatly made, as if never slept in before.
+$Ryker &quot;It&#39;s soft. Reminds me of my old bed...&quot; He coughed and trailed off. Perhaps he wasn&#39;t as satisfied sleeping on my couch as I thought...
+]
+
+(link-reveal:&quot;Investigate the desk&quot;)[
+$Severio The desktop was fairly clean, save for a mathematics textbook. Her handwriting was tidy but lifeless. 
+$Severio The drawer was locked -- nothing more than a trifle against my lockpicks -- and held more interesting tomes.
+$Ryker &quot;Occult texts, demonic manuals, divination instructions... She&#39;s got a collection of rare books in here.&quot; After a quick detection for magic, the cadet flipped through the pages.
+$Ryker &quot;Let&#39;s see... this one is just superstition, no actual merit. This one is *very* elementary, the kind of thing you&#39;d give an occult toddler. And this one... yeah, there&#39;s no way any of this would work.&quot;
+$Severio &quot;Anything that would indicate a powerful occult magician?&quot;
+$Ryker The cadet shook his head. &quot;Nothing here, at least. These wouldn&#39;t tell her how to cast powerful death magic, to be certain. The most offensive spell here would cause a runny nose.&quot;
+$Severio &quot;Hmm. Well, it&#39;s not impossible that she&#39;s advanced past this skill level, but I&#39;m getting the feeling we&#39;re not dealing with a high mage.&quot;
+]
+
+(link-reveal:&quot;Investigate the armoire&quot;)[
+$Severio The door to the armoire was ajar. After careful examination, we opened it to find a closet full of black, plain clothes. 
+$Ryker &quot;She certainly has a particular style...&quot;
+$Ryker The cadet scanned the area for magic. As he got to the bottom, he raised his eyebrows. He pushed aside the dresses to find a series of ritualistic chalk runes written across the base.
+$Severio &quot;That&#39;s interesting. I don&#39;t recognize these, do you?&quot;
+$Ryker &quot;I think so. It&#39;s an alphabet to a dead language. I don&#39;t know for certain, it&#39;s not exactly my forte, but this looks like a focus for an occult communication ritual.&quot;
+$Severio &quot;So it would fit with what Elena said, that she was trying to talk to her late mother.&quot;
+$Ryker &quot;Yeah, that would check all the boxes here. 
+$Severio &quot;Any offensive capabilities?&quot;
+$Ryker &quot;Highly unlikely. It would be like bludgeoning someone with a telephone. Technically possible, but there&#39;s much better ways of going about it.&quot;
+]
+
+---
+Once you&#39;ve investigated everything in the room, return to
+[[Decide which room to investigate (upper floor)]] </tw-passagedata><tw-passagedata pid="93" name="Go to Giodeo and Annelia&#39;s Suite" tags="" position="2575,400" size="100,100">$Severio The room of Giodeo and Annelia was particularly spacious, almost a full suite. It included a four poster bed, tea table and settings, and a rather elegant makeup table.
+$Severio Painted portraits of the happy couple adorn most of the walls in the place.
+
+(link-reveal:&quot;Investigate the makeup table&quot;)[
+$Ryker &quot;I, er uh, don&#39;t know if I&#39;m comfortable going through a woman&#39;s powdering, uh, zone.&quot;
+$Severio &quot;Nonsense, champ. We&#39;re professionals, and can do a professional job.&quot;
+$Severio I looked across the perfumes and paints. I recognized none of it.
+$Severio But wedged between the vanity mirror and its frame was a printed letter. A lithograph of the couple, and text.
+$Severio &quot;We cordially invite you to the marriage of Giodeo Pentaccio of the Diamante Pentaccios and Annelia Della of the Alicandite Dellas. Reception at yadada, gifts etc etc. Oh look, small text... funded by the Della family. Interesting&quot;
+$Ryker &quot;Not the groom&#39;s family? I wonder if Lord Pentaccio was against the wedding... or just a miser.&quot;
+$Severio &quot;That&#39;s an interesting question. Living under the roof of a disapproving father, or father-in-law, could constitute a motive.&quot;
+]
+
+(link-reveal:&quot;Investigate the tea table&quot;)[
+$Ryker The cadet gives a gentle gasp as we look at the tea table. &quot;Look sir, they have Medlian tea!&quot;
+$Severio &quot;Remember cadet, we&#39;re here to look, not sample.&quot;
+$Ryker &quot;Ah, well at least I can remember the smell.&quot; He leans down to smell the loose tea jar, then wrinkles his nose.
+$Ryker &quot;Augh, no way, this is absolutely not Medlian tea.&quot;
+$Severio &quot;Cheap stuff gives you hives, eh?&quot;
+$Ryker He sniffed, nose running. &quot;No, this is different. It has an ammonia smell. There&#39;s something wrong with it.&quot;
+$Severio I cautiously wafted the tea towards me. &quot;...Yes, this does smell rather off. In fact... it rather reminds me of a draught used for sleeping.&quot;
+$Ryker &quot;Who would drink ammonia tea?&quot;
+$Severio &quot;The taste disappears once it&#39;s mixed into hot water. I take it from time to time when I can&#39;t stop the wheels turning.&quot;
+$Severio I looked around the table and the makeup counter, before spotting it: the telltale vial of sleep draught mixed amongst the perfumes. Just like the one on my dresser at home.
+$Severio &quot;Here we are. Sleeping draught, mixed into tea. One of them must have dire sleeping problems if they resort to this.&quot;
+$Ryker &quot;What about you, sir?&quot;
+$Severio &quot;Er, it&#39;s nothing to worry about. At any rate, let&#39;s note this down, shall we?&quot;
+]
+
+
+---
+Once you&#39;ve investigated everything in the room, return to
+[[Decide which room to investigate (upper floor)]] </tw-passagedata><tw-passagedata pid="94" name="Go to the Office" tags="" position="2725,400" size="100,100">$Severio We entered what appeared to be Pentaccio&#39;s private office. A grand desk sat imposingly in the center, surrounded by floor-to-ceiling bookshelves. The shelves were mostly devoid of books or decoration.
+$Ryker The cadet stifled a shiver. &quot;It feels...oppresive in here.&quot;
+
+(link-reveal:&quot;Investigate the shelves&quot;)[
+$Severio There was little of interest on the shelves, save for a few dry books on construction.
+$Ryker The cadet flipped through one of the books. &quot;Planning, foundations, safety... oh, what&#39;s this?&quot; 
+$Ryker From between two pages, the cadet pulled out a folded map. A floorplan.
+$Ryker &quot;This looks like a floorplan of this manor. See, we&#39;re here, and there&#39;s Pentaccio&#39;s room.&quot;
+$Severio &quot;This plan has a basement, just like the note in Pentaccio&#39;s dresser,&quot;
+$Ryker &quot;Well, it looks like there&#39;s a cellar door in the back yard, according to this. I didn&#39;t see one when we came in.&quot;
+$Severio &quot;Very intriguing. Let&#39;s keep this noted.&quot;
+]
+
+(link-reveal:&quot;Investigate the Desk&quot;)[
+$Severio The desktop was a thick slab of marble, ringed in mahogany. The sides and drawers were equally as thick. 
+$Severio Nothing on top. The drawers didn&#39;t budge when pulled. 
+$Ryker &quot;Must be locked. But where would he leave a key?&quot;
+$Severio &quot;One thing you&#39;ll quickly learn, champ. Keys are overrated.&quot;
+$Severio A quick moment with my infiltrator&#39;s kit, and there! 
+$Severio Inside the top drawer was a number of leather-bound tomes. We placed them on the desktop and flipped through.
+$Ryker &quot;Ledgers. Must be for his business.&quot;
+$Severio &quot;Don&#39;t be so sure. Look carefully - for a detailed document, there&#39;s very little details. The names are initials, the goods are coded, and there&#39;s a lot of &#39;operating costs&#39; without explanation. This is a smuggler&#39;s ledger.&quot;
+$Severio &quot;I don&#39;t recognize anything here, but this is definitely something Lady V would want to see.&quot;
+$Severio The bottom drawer was similarly locked, containing another smaller lockbox. I picked the locks and opened the lid.
+$Ryker &quot;...Newspaper clippings? Obituaries... Lady Pentaccio -- these are all about his wife!&quot;
+$Severio &quot;Why would he keep these locked up? Huh, there&#39;s a note on this one. &#39;Stored her at 2pm.&#39; ...what the hell does that mean?&quot;
+$Ryker &quot;Beats me. Maybe the family will know.&quot;
+]
+
+
+[[Decide which room to investigate (upper floor)]] </tw-passagedata><tw-passagedata pid="95" name="Go to the Large Guest Room" tags="" position="2875,400" size="100,100">$Severio A fancy room divider, too expensive for the plain decor, split the room in two. Each half had a small, utilitarian bed; a side table; and a window. No other furnishing 
+
+
+(link-reveal:&quot;Investigate the left half&quot;)[
+$Severio The bed on the left side of the room was disheveled. The comforter was balled at the foot of the bed, and the top bedsheet was missing. An oil lantern sat on the bedside table, gathering cobwebs. A small snakeskin suitcase was tucked under the mattress.
+$Ryker &quot;I wonder what happened here! Even if someone jumped out of bed, they probably wouldn&#39;t have left the bed in this state.&quot;
+$Severio I checked the suitcase. The overnight bag of a foppish, gnome-sized man. Tribaxet Stomp&#39;s side. &quot;I wonder, was he expecting to be staying the night?&quot;
+$Ryker &quot;The window is ajar. This country always seems warm to me, but still, it&#39;s strange to be open during the autumn nights... wait, what&#39;s this?&quot;
+$Severio &quot;What did you find, champ?&quot;
+$Ryker &quot;There&#39;s a few threads on a nail here. It looks like the fabric the bed sheets are made from.&quot;
+$Severio I looked out the window. We were on the second floor; the kitchen window was beneath us, and a mess of unkempt bushes lined the house&#39;s edge.
+]
+
+(link-reveal:&quot;Investigate the right half&quot;)[
+$Severio The bed on the right side of the room looked to have been barely used. A few wrinkles in bedspread, but it wasn&#39;t the mess of someone who had jumped out bed.
+$Severio The side table had a small oil stain in a ring, likely an oil lantern had sat here for ages, but was nowhere to be seen.
+$Ryker &quot;No bags or suitcases. It&#39;s unclear anyone was staying here at all...&quot;
+]
+
+---
+Once you&#39;ve investigated everything in the room, return to
+[[Decide which room to investigate (upper floor)]] </tw-passagedata><tw-passagedata pid="96" name="Go to the Small Guest Room" tags="" position="3050,400" size="100,100">$Severio A plain, cramped room, bereft of any decoration. The bed is neatly made, like nobody slept in it. A ladies&#39; handbag lies on the pillow. An oil lantern sat unused on the bedside table.
+$Ryker &quot;This must be Mrs. Rodillius&#39; room. They certainly don&#39;t decorate these guest quarters...&quot;
+$Severio &quot;I&#39;m surprised she left her handbag. The guard must have escorted them to the precinct quickly. But, that&#39;s lucky for us!&quot;
+$Ryker &quot;You&#39;re going to go through her handbag?&quot; He sounded more intimidated than scandalized.
+$Severio &quot;It&#39;s just a bag. It just smells nicer.&quot;
+
+(link-reveal:&quot;Open the Handbag&quot;)[
+$Severio Despite the cadet&#39;s uneasy noises, I looked inside the bag.
+$Severio Lip rouge. Calling cards. Various ladies&#39; accoutrements. But there was something unusual.
+$Severio Wrapped in a silk kerchief was the remains of a wine glass, shattered into a dozen pieces
+$Ryker &quot;A wine glass? Do ladies carry those around?&quot;
+$Severio &quot;Well, my mother did, in case wine happened to be around. But no, not usually.&quot;
+$Severio Piecing it together in my mind, it looked like there was a shard missing.
+$Severio &quot;Careful, cadet, there might still be broken glass around.&quot;
+]
+
+Once you&#39;ve investigated everything in the room, return to
+[[Decide which room to investigate (upper floor)]] </tw-passagedata><tw-passagedata pid="97" name="Decide which room to investigate (ground floor)" tags="" position="2750,675" size="100,100">GROUND FLOOR
+
+[[Go to the Foyer]]
+
+[[Go to the Lower Hallway]]
+
+[[Go to the Kitchen]]
+
+[[Go to the Dining Room]]
+
+[[Go to the Den]]
+
+
+
+[[Go to the Back Yard]]
+
+[[Return Upstairs-&gt;Decide which room to investigate (upper floor)]] 
+
+---
+Once you&#39;ve exhausted all of the options above, the following unlock
+[[Discuss findings from manor]]</tw-passagedata><tw-passagedata pid="98" name="Go to the Lower Hallway" tags="" position="2400,900" size="100,100">$Severio The creaky hallway was in need of a dusting. As we walked through, one of the floorboard squeaks sounded a bit different.
+$Severio Out of the corner of my eye, I spotted the tail of a rat dart into a hole in the corner.
+$Severio &quot;Ryker, a rat! That&#39;s murder paydirt! Can you cast something to speak with it?&quot;
+$Ryker &quot;Well, I can, but I need to be able to see the rat to cast it.&quot;
+$Severio &quot;We&#39;ll need to lure it out. Maybe we can find something... cheese is traditional?
+
+
+---
+Once you have collected cheese, the following is available.
+(link-reveal:&quot;Lure the rat out with cheese&quot;)[
+$Severio We crouched by the rat hole, and smeared the rich cheese around the entrance.
+$Severio &quot;Get ready, I think I hear it coming.&quot;
+$Rat The rat poked its head out of the hole just as Ryker finished casting his spell.
+$Ryker The cadet began speaking in a deep gutteral chirping, like a bear mimicking a cat.
+$Rat The rat squeaked back. The two conversed; growls versus squeaks.
+$Ryker The cadet seemed to alternate between a pleasant tone, a serious tone, and a tone best described as submissive. After a few minutes, he turned back to me.
+$Ryker &quot;He says that he doesn&#39;t know anything about the murder, but he did see something intriguing.&quot;
+$Ryker &quot;After everyone had gone to bed, two people met in the dining room. I believe he&#39;s describing Mrs. Rodillius and Annelia Pentaccio.&quot;
+$Severio &quot;Excellent work, cadet! Does he know what they talked about?&quot;
+$Ryker &quot;No, he didn&#39;t understand their conversation, but he remembers a glass shattering a few moments before Lord Pentaccio cried out.&quot;
+$Severio &quot;Very interesting. Please thank the rat!&quot;
+$Rat The rat seemed to nod before gathering the rest of the cheese and rushing out of view.
+]
+---
+Once you&#39;ve investigated everything in the room, return to
+[[Decide which room to investigate (ground floor)]] </tw-passagedata><tw-passagedata pid="99" name="Go to the Kitchen" tags="" position="2550,900" size="100,100">$Severio A spacious stonework kitchen that had seen better days. Cleaning was clearly not a priority. The remains of a charcuterie board lay on the countertop, with stale crackers, shriveled sausage, and luxurious cheeses.
+$Ryker The cadet gave a small gasp. &quot;Toranian brie, I haven&#39;t had that since I was a child!&quot;
+$Severio &quot;I could never stomach the fancy cheeses. Give me your basic parm.&quot;
+$Ryker &quot;It&#39;s the best acquired taste I could imagine.&quot; He trailed off wistfully.
+
+--- 
+Once you have met the rat, the following is available
+(link-reveal: &quot;Take some cheese&quot;)[
+$Severio &quot;This cheese might be just the thing the rat might like. Let&#39;s take some.
+$Ryker The cadet&#39;s eyes sparkled.
+$Severio &quot;...but best not sample evidence ourselves.&quot;
+$Ryker &quot;No, of course not, sir,&quot; he said, scoffing unconvincingly.
+]
+---
+Once you&#39;ve investigated everything in the room, return to
+[[Decide which room to investigate (ground floor)]] </tw-passagedata><tw-passagedata pid="100" name="Go to the Den" tags="" position="2700,900" size="100,100">$Severio This small lounge was choked in dust. Sketched portraits of Elena and Giodeo at various ages hung on the walls. Pencils and charcoal sat, long forgotten, by an easel draped in cobwebs.
+$Ryker &quot;This must be Lady Pentaccio&#39;s study,&quot; the cadet absently removed his hat and bowed his head.
+$Severio Along the ground were sketches of various objects in the Liberty Style, which proved very popular in Diamante. The easel had an unfinished sketch of the grandfather clock in the foyer. She must have liked it.
+$Severio A thorough search turned up nothing of interest to the murder of Lord Pentaccio. We left the quiet, tomb-like study, and returned to our investigation.
+
+---
+
+[[Decide which room to investigate (ground floor)]] </tw-passagedata><tw-passagedata pid="101" name="Go to the Back Yard" tags="" position="3175,900" size="100,100">$Severio A back yard, fairly overgrown.
+$Ryker &quot;This looks like it would be a nice little spot, shame it&#39;s so unkempt...&quot;
+$Severio I was about to respond when I noticed movement coming from the bushes.
+$Badgers It was...a badger? Two badgers! They pressed together as they stood on their hind legs, posturing threateningly.
+$Severio &quot;Looks like we&#39;ve disturbed their burrow, be careful. If we want to search here, we&#39;d better deal with these hoodlums. Got some more magic to talk to them?&quot;
+$Ryker &quot;Yes sir, let&#39;s see if I can calm these two down.&quot;
+$Severio &quot;Good plan. I don&#39;t think I could pull my pistol on a badger.&quot;
+
+
+(link-reveal:&quot;Have Ryker magically commune with the animals&quot;)[
+$Ryker The cadet starts his spell. The badgers perk their heads up, confused and threatened. $Ryker After a moment, he speaks. It sounds like a squirrel chittering mixed with snorts like a bull.
+$Badgers The badgers flinch, bewildered. But they began responding in kind.
+$Ryker After a short discussion, the cadet turned back to me. &quot;My my, they&#39;re actually quite friendly!&quot;
+$Ryker &quot;They explained that they were expecting a gnome. Apparently one fell from the sky last night and started talking to them.&quot;
+$Severio &quot;Dropped from the sky?&quot; I looked up. A cloudless day, no chance for raining gnomes.
+$Ryker &quot;The window to Mister Stomp&#39;s guest room is right above the bushes. That can&#39;t be a coincedence.&quot;
+$Severio &quot;And Stomp said he had gnomish magical talent; talking with badgers would fit that description.&quot;
+$Ryker &quot;Lucia and Gucia -- that&#39;s the badgers&#39; names -- said the gnome was asking about the big man in the house.&quot;
+$Severio &quot;He was using the badgers to dig up dirt on Pentaccio. Makes sense. Now, can we investigate under that bush?&quot;
+$Ryker The cadet nodded at the badgers.
+$Badgers They stood on their hind legs proudly, then ambled back in their hole.
+]
+
+
+The following options unlocks if the badgers allow it.
+(link-reveal:&quot;Investigate the bushes&quot;)[
+$Severio We rifle through the bushes. Silk sheets tied into a rope lay in a coil, one end showing signs of tearing. 
+$Severio Next to that, a vaguely circular indent, like a gnome falling on his ass from high above.
+$Severio From the indent came small footprints, leading first to the badger den. Then more, much further spaced, towards the back door.
+$Severio &quot;Looks like we know what Stomp was doing last night.&quot;
+$Ryker &quot;There&#39;s a spellprint here. Primal magic, communication magic, very similar to the one I just cast with the badgers. Stomp definitely talked to the badgers with magic.&quot;
+
+]
+---
+Once you&#39;ve searched everything outside:
+[[Decide which room to investigate (ground floor)]] 
+
+
+The following option only unlocks if you&#39;ve gone to the office and found evidence of a hidden basement, and convinced the badgers to allow you access.
+(link-reveal:&quot;Search for the hidden basement&quot;)[
+$Severio We looked for a cellar door where the map indicated, but there was nothing but overgrown grass.
+$Ryker &quot;Could this be an outdated plan? Maybe they never actually made a basement...&quot;
+$Badgers One of the badgers, curious as to what we&#39;re doing, waddled over and looked us up and down. It sniffed at the ground we were inspecting, looked at us with wide eyes, then dashed suddenly back to its den.
+$Badgers After a moment, the ground beneath us shifted. A patch of grass, about two foot square, lifted up. From the dirt popped the badger. 
+$Ryker &quot;Look at this, a slope down! Miss Badger, you found the secret basement!&quot;
+$Badgers The badger simply nibbled on Ryker&#39;s shoe for his troubles, then wandered away.
+[[Go to the basement]]
+]
+
+</tw-passagedata><tw-passagedata pid="102" name="Go to the basement" tags="" position="3350,900" size="100,100">$Severio The slope led down about eight feet, to a low-ceilinged room made of worked stone. 
+$Ryker The cadet went first, conjuring a source of light in his hand. Luckily, the low headroom posed no issue to Ryker.
+$Severio On the stone floor, I could make out some dirt which could be footprints. It was still a bit damp, different to the dusty soil around us. Someone was here in the past few days.
+$Severio There was a number of open and empty crates, as well as one small closed one on top. At the back of the room, a ladder led up through a narrow tunnel up into the manor.
+$Ryker &quot;A smuggler&#39;s hold if I&#39;ve ever seen one. Mustn&#39;t have been used in a while, though.
+
+[[Investigate the closed crate]]</tw-passagedata><tw-passagedata pid="103" name="Discuss findings from manor" tags="" position="2900,1100" size="100,100">$Severio Once we were confident there was nothing more to find in the manor, we regrouped in the foyer.
+$Ryker &quot;This was definitely a treat. Secret smuggler&#39;s caches, occult magic, chatting with badgers... Is it always like this, sir?&quot;
+$Severio &quot;Not usually, champ. It&#39;s often digging through trash cans to see where someone&#39;s eaten lately.&quot; 
+$Ryker &quot;Well, I&#39;m certain there&#39;s a dignified charm to that too.&quot; He held his head high.
+$Ryker &quot;So what do you make of all this? If the raven statue could cast the spell without needing to know any magic, then anyone could have done it.&quot;
+$Severio &quot;I wouldn&#39;t say that. In fact, I think I have a good idea of who did it.&quot;
+$Severio As we walked back to the waiting gondola, I explained my reasoning.
+
+[[Return to the Station]]</tw-passagedata><tw-passagedata pid="104" name="Investigate the closed crate" tags="" position="3350,1075" size="100,100">$Severio The crate was lined with packed hay. On the left side, a foot-long obsidian statuette of a raven. In its mouth was a small gemstone. An indentation in the hay suggested a second statuette was once here.
+$Ryker The cadet cast his magic detection spells, looking the raven over. He inhaled through his teeth.
+$Ryker &quot;I think we got a murder weapon, sir. This raven is positively glowing with occult magic. Let me see...&quot; He donned gloves from his pocket, and gingerly picked up the statuette.
+$Ryker &quot;Occult spell. Fear based... death magic for sure. If you knew how to use this, you could cast a spell that&#39;ll conjure a sleeping victim&#39;s greatest fear, killing them if the fright overwhelmed them.&quot;
+$Severio &quot;Particularly disturbing way to go. That could be why Pentaccio saw his dead wife coming back as a ghost... if that was his greatest fear.&quot;
+$Ryker &quot;What&#39;s more, this thing doesn&#39;t need any magic talent to use. If you knew the incantation, you could cast it without a drop of ether. But only once, then it&#39;d crumble into dust.&quot;
+$Severio &quot;Well, once is all you need.&quot;
+$Ryker &quot;The terrifying thing is this,&quot; he pointed at the gemstone in the raven&#39;s mouth. &quot;It&#39;s emanating a lot of weird magic I&#39;ve never seen before. I have no idea what it does.&quot;
+$Severio &quot;I don&#39;t like the sound of that. When this is all over, we should bring this to a professional seeker. Lady V&#39;s smuggling investigation just got a lot more important...&quot;
+$Ryker The cadet shone his light over to the ladder. &quot;Shall we see what&#39;s up there?&quot;
+
+[[Go up the ladder]]
+</tw-passagedata><tw-passagedata pid="105" name="Go up the ladder" tags="" position="3350,1250" size="100,100">$Severio The rusty ladder rungs brought us up, further than the foundations. Wherever we were, it was on the second floor. 
+$Severio A small landing greeted us, barely over a foot across. A still-lit oil lantern sat in the corner, and a heap of sparkling black dust was spread along the floor.
+$Ryker &quot;Sir, I see a spellprint. Occult, death magic through fear. No doubt that this is the spell from the raven&quot; He steps around the pile of dust, &quot;and this is likely the remains after it was cast.&quot;
+$Severio I looked over the walls, and found a small latch. When opened, it revealed...
+$Ryker &quot;Pentaccio&#39;s bedroom!&quot;
+$Severio We had found a secret doorway to the scene of the crime. Pentaccio lay in bed where we left him, directly in sight of the door.
+$Severio How could we have missed a whole secret door in an empty room? It was maddening.
+$Ryker &quot;Sir, your face is turning red... Ahem, this must be an escape hatch. Royals used them in the design of their castles, in case they needed to flee suddenly.&quot;
+$Severio I smoothed back my hair and took a breath. &quot;Yes, yes of course. It would have been expertly hidden, if Pentaccio is indeed a smuggler.&quot; Yeah, that explains it.
+$Severio &quot;So the killer found this passage, and used the raven statuette to kill Pentaccio in the night.&quot;
+$Ryker &quot;But... if they used the statuette, anyone could have cast the spell. We&#39;re no closer to finding out who did this.&quot;
+$Severio &quot;Actually, champ, I think I&#39;m starting to get a picture... Let&#39;s continue our investigation.&quot;
+
+[[Decide which room to investigate (ground floor)]] </tw-passagedata><tw-passagedata pid="106" name="Return to the Station" tags="" position="2900,1300" size="100,100">$Severio The police station was just as bustling as when we left.
+$Masamhan The lieutenant rushed over to us as soon as he saw us. &quot;Sev, you took your sweet time! The gnome is ready to explode if we don&#39;t release him soon.&quot;
+$Severio We were escorted quickly to the holding room. Giodeo, Elena, and Annelia Pentaccio in one corner; Fio Rodillius, Tribaxet Stomp, and Matazario Caleshi in the other. Everyone immediately turned to us.
+$Giodeo &quot;Detectives! Did you-&quot;
+$Stomp &quot;DID YOU PROVE IT WAS THE GIRL? CAN WE FI-NA-LLY GO HOME!&quot; The gnome seemed almost in tears with exasperation.
+$Severio &quot;I believe I know who killed Paotro Pentaccio last night.&quot;
+$Severio Every eye in the holding room was on us. Time for the show.
+$Stomp &quot;Well, did she do it, or didn&#39;t she? Hurry up, man!&quot;
+$Severio &quot;Yes, let&#39;s start with Elena Pentaccio. Did she do it?&quot; 
+$Elena The girl&#39;s gaze rose slowly. For a brief moment, a glimmer of fear in her eyes.
+$Severio &quot;Paotro Pentaccio was indeed killed by occult magic, as my associate here can attest.&quot;
+$Ryker &quot;The cadet nods. &quot;Absolutely. Death magic. Quite advanced stuff, I might add.&quot;
+$Severio &quot;Elena is the only person capable of occult magic. And she has motive; Lord Pentaccio was planning to marry her off.&quot;
+$Stomp &quot;So she snapped, ensorcelled her father, and is acting the innocent babe!&quot;
+$Severio &quot;Perhaps. But maybe, there is another way this death spell could have been cast.
+
+&#39;&#39;Who or what could have cast the spell?&#39;&#39;
+
+[[The obsidian raven statuette]]
+
+(link-reveal: &quot;Tribaxet Stomp&#39;s primal magic&quot;)[
+$Severio No, Stomp&#39;s magic is a completely different tradition. Let&#39;s try again.
+]
+
+(link-reveal: &quot;Elena&#39;s training books&quot;)[
+$Severio Those books were much too elementary to cast such a spell. Something else...
+]
+
+(link-reveal: &quot;The badgers&quot;)[
+$Severio No, let&#39;s try again...
+]
+</tw-passagedata><tw-passagedata pid="107" name="The obsidian raven statuette" tags="" position="2900,1500" size="100,100">$Severio &quot;This.&quot; I placed the statuette on the holding room table, scanning the crowd for recognition.
+$Severio Giodeo and Annelia raise eyebrows. Rodillius seems unimpressed. Caleshi purses his lips. Stomp&#39;s eyes widen, his mouth blessedly shut. And Elena is unreadable as always.
+$Giodeo &quot;A...raven? It cast the magic?&quot;
+$Ryker &quot;Indeed. This is a locus for casting a spell matching the one that killed Lord Pentaccio. Another one like this is the true murder weapon, but it was destroyed when it was used.&quot;
+$Stomp &quot;That so? Just because it casts a matching spell doesn&#39;t mean a caster couldn&#39;t have cast it. Besides, the girl could have used the raven thing!&quot;
+$Severio &quot;In fact, any of you could have.&quot;
+$Stomp The gnome sputtered, &quot;not I! I was asleep!&quot;
+$Rodillius &quot;As was I, the shout woke me.&quot;
+$Severio &quot;Certainly you can all claim to be sleeping. But let&#39;s investigate those claims, shall we? Let&#39;s start with the affable signor Stomp.&quot;
+$Stomp The gnome inhales sharply, face growing shades of red never before seen.
+$Severio &quot;You were witnessed outside your room around the time of the murder.&quot;
+$Stomp &quot;Scurrilous lies!&quot; He kicked his feet against the chair legs. &quot;Who told you that?&quot;
+
+&#39;&#39;Who witnessed Tribaxet Stomp outside his room last night?&#39;&#39;
+
+
+(link-reveal: &quot;Giodeo Pentaccio&quot;)[
+$Severio No, it was someone else.
+]
+(link-reveal: &quot;Matazario Caleshi&quot;)[
+$Severio He should have witnessed Stomp leave their shared guest room, but he didn&#39;t testify that. Someone else did..
+]
+(link-reveal: &quot;Lord Pentaccio&#39;s ghost&quot;)[
+$Severio Nope, someone else.
+]
+[[The two badgers]]</tw-passagedata><tw-passagedata pid="108" name="The two badgers" tags="" position="2900,1700" size="100,100">$Stomp &quot;The BADGERS? Unbelievable, you would believe those beasts before me?!&quot;
+$Giodeo &quot;Badgers? Like, the ones in our garden?&quot;
+$Severio &quot;Exactly. My partner here can also magically talk to animals. The badgers claim he was inquiring about Lord Pentaccio&#39;s private life.&quot;
+$Stomp The gnome pointed at the cadet. &quot;Him? Are you a state seeker, boy&quot;
+$Ryker &quot;Well, not yet. I&#39;m still in training, but-&quot;
+$Stomp &quot;Then nothing those lushes say can be used against me!&quot; His moustache nearly touches his eyebrows as he grins.
+$Severio &quot;In a court of law, yes, it&#39;s invalid evidence. But I wouldn&#39;t fight so hard, signor. Your attempt to gain insider knowledge gave you an alibi.&quot;
+$Stomp &quot;I-...wait, really?&quot;
+$Severio &quot;By the distance of your footprints leading away from the burrow and towards the back door, you had to have been running. Towards the scream.
+$Caleshi The scruffy man leaned forward. &quot;That&#39;s just speculation, ain&#39;t it?&quot;
+$Severio &quot;Admittedly speculative, but within reason. Besides, more of you than signor Stomp were active last night. Like you, signora Rodillius.&quot;
+$Rodillius The dwarven woman gasped and turned as red as Stomp. &quot;Ridiculous! Whatever reason could you suspect I wasn&#39;t in my bed all night?&quot;
+$Severio &quot;Simple, it was...&quot;
+
+&#39;&#39;What evidence suggests Rodillius wasn&#39;t in her room?&#39;&#39;
+
+(link-reveal: &quot;The torn sheets&quot;)[
+$Severio No, those were in Stomp&#39;s room...
+]
+[[The shattered glass]]
+(link-reveal: &quot;The spellprint in the staircase&quot;)[
+$Severio No, it&#39;s something else.
+]
+(link-reveal: &quot;Annelia Pentaccio&#39;s limp&quot;)[
+$Severio Yes, that must be connected to the glass somehow, but there&#39;s a more pressing clue that I should present.
+]
+</tw-passagedata><tw-passagedata pid="109" name="The shattered glass" tags="" position="2900,1900" size="100,100">$Severio &quot;Let me ask Stomp and Caleshi. Did a wine glass get smashed while you were arguing?&quot;
+$Stomp &quot;Not at all, we were not so careless!&quot;
+$Severio &quot;Signora Rodillius, In your suitcase was shattered fragments of a wine glass. One that matches the a shard found in the dining room. A wine glass missing from the set.&quot;
+$Severio &quot;Since it didn&#39;t happen during your meeting, it must have shattered during the night! And since the remains ended up in your suitcase, you must have had a hand in it!&quot;
+$Rodillius The dwarf&#39;s face began to glow a red only previously seen in Stomp.
+$Rodillius &quot;Simple! A snack! Yes, I knocked over the glass. I had hoped to replace it before Lord Pentaccio noticed. All in service of a midnight libation!&quot;
+$Severio &quot;Hmm. What if I was to suggest you weren&#39;t alone?&quot;
+$Severio Restrained gasps from the group. Ryker failed to hide his own surprise.
+$Severio &quot;The shard of glass had blood on it. Now, we don&#39;t have any fancy forensic proof, but we do have an injured party.&quot;
+$Giodeo &quot;Someone is injured?&quot;
+$Severio &quot;Correct! Surely you have noticed, your wife is limping. Signore Annelia: how did you injure your foot?&quot;
+$Annelia &quot;W-what?!&quot;
+$Giodeo &quot;Annelia, are you hurt?&quot; Confusion and concern play across his face.
+$Annelia &quot;No, n-not at all, I&#39;m fine! See--&quot; she moved to stand, but couldn&#39;t resist a grimmace when her weight fell on her foot.
+$Severio &quot;May I hazard a guess? You and signora Rodillius were together. The glass was broken, you were cut.&quot;
+$Giodeo &quot;Ridiculous! My darling can tell you, I&#39;m a very light sleeper. I would have noticed Annelia leave the room.&quot;
+$Annelia Her eyes snap open in relief. &quot;Exactly! I was asleep next to my husband the whole night!&quot;
+$Severio &quot;There is a reason Giodeo didn&#39;t wake up. The same reason he was the last to arrive at the doorway when awoken.&quot;
+
+&#39;&#39;What evidence explains why Giodeo didn&#39;t wake up sooner?&#39;&#39;
+
+(link-reveal: &quot;The rich cheeses&quot;)[
+$Severio No, that&#39;s not right...
+]
+(link-reveal: &quot;Stomp&#39;s primal magic&quot;)[
+$Severio No, it&#39;s something else.
+]
+
+[[The sleep draught tea]]
+(link-reveal: &quot;Elena&#39;s occult magic&quot;)[
+$Severio No, I don&#39;t think so...
+]
+</tw-passagedata><tw-passagedata pid="110" name="The sleep draught tea" tags="" position="2900,2025" size="100,100">$Severio &quot;Annelia, Giodeo, do either of you have trouble falling asleep?&quot;
+$Giodeo &quot;N-no, not particularly?&quot;
+$Severio &quot;So are you unaware that your tea was dosed with sleeping draught?&quot;
+$Giodeo &quot;What? Outrageous!&quot;
+$Severio &quot;If it&#39;s what I believe it is, you should still feel its effects now. Slight dizziness, fatigue, seeing occasional spots?&quot;
+$Giodeo The gaunt man furrowed his brow, a worried expression slowly crossing his face.
+$Giodeo &quot;Darling... Did... Did you drug me?&quot;
+$Annelia The young woman sputtered, clutching her chest. &quot;I- I just wanted you to get a healthy night&#39;s sleep!&quot;
+$Severio &quot;After you dosed your husband&#39;s tea, you went to meet signora Rodillius. But what ties you two together?&quot;
+$Rodillius &quot;Nothing, of course! I haven&#39;t met this woman in my life!&quot;
+$Severio &quot;Let me ask a non sequitur. Signora Rodillius, you mentioned you recently wed?&quot;
+$Rodillius &quot;Why yes I did! In fact, my darling husband must be worried sick, we REALLY should convene soon!&quot;
+$Severio &quot;Might I inquite, what is your maiden name?&quot;
+$Rodillius &quot;My name was Fio Della, of the Alicandrite Dellas.&quot;
+$Severio &quot;Fascinating. Because I found something else in the couple&#39;s room.&quot;
+
+&#39;&#39;What evidence suggests Rodillius and Annelia have met?&#39;&#39;
+(link-reveal: &quot;The sleeping draught&quot;)[
+$Severio No, that&#39;s not right...
+]
+[[The wedding invitation]]
+(link-reveal: &quot;The wine glass&quot;)[
+$Severio No, that&#39;s not right...
+]
+(link-reveal: &quot;The raven statuette&quot;)[
+$Severio No, that&#39;s not right...
+]</tw-passagedata><tw-passagedata pid="111" name="The wedding invitation" tags="" position="2900,2150" size="100,100">$Giodeo &quot;Our wedding invitation? What could that...&quot; the man&#39;s face dropped further in realization.
+$Severio &quot;Let&#39;s read the cover. Giodeo of the Diamante Pentaccios and Annelia Della of the Alicandrite Dellas are to wed. 
+$Severio &quot;Ryker, you are of Alicandrite nobility. Are there perhaps two Della families in Alicandia?&quot;
+$Ryker &quot;I&#39;m afraid there isn&#39;t, at least in high society.&quot;
+$Severio &quot;Then why were two women, who had never met, having a family reuinion in the dining room?&quot;
+$Severio &quot;Annelia Pentaccio. Fio Rodillius. Tell the truth now, because otherwise it would seem you are collaborators in Pentaccio&#39;s murder!&quot;
+$Annelia &quot;UGH!&quot; The woman stomped her bad foot, causing her to reel in pain. Through clenched teeth, she spat, &quot;Aunty Fifi, tell them.&quot;
+$Rodillius &quot;Fine. I was apprising Annie of the discussions of Pentaccio&#39;s business.&quot;
+$Severio &quot;To what end, may I ask?&quot;
+$Rodillius &quot;...We knew Giodeo would one day inherit Pentaccio&#39;s fortune.&quot;
+$Stomp &quot;Hmph, that explains why you were cutting Pentaccio so much slack in the deliberations.&quot;
+$Giodeo &quot;You... are you saying, you married me for my inheritance?&quot;
+$Annelia &quot;No!! I mean, yes at first, but our love is true, darling! I don&#39;t care about the money anymore!&quot;
+$Giodeo The gaunt man looked at his shaking hands, in shock.
+$Severio &quot;I am terribly sorry this news was broken to you this way, but it paints an important picture about your father&#39;s murder.&quot;
+$Severio. Stomp was outside with the badgers. Rodillius and Annelia were in the dining room. Giodeo was drugged. That leaves only Elena, or-&quot;.
+$Caleshi The shaggy man interrupted. &quot;That&#39;s jumping the gun a bit. Even if they had a different plan, any of them could have had time to go to Pentaccio&#39;s room.&quot;
+$Severio &quot;And you would be correct, but as a thought experiment, let&#39;s explore your night, signor Caleshi.&quot;
+$Caleshi He clenched his jaw, eyes darting to the exits.
+$Severio &quot;Here&#39;s a question. How would anyone get into Pentaccio&#39;s room? It&#39;s a simple answer: secret doorway.&quot;
+$Giodeo The young man looked up from his hands for a moment. &quot;...yes, there was a secret escape hatch, wasn&#39;t there? I remember it being built, in case... in case his past caught up with him.&quot;
+$Caleshi &quot;Absurd, I had no idea there was a secret doorway!&quot;
+$Severio &quot;I believe you did. And this is why...&quot;
+
+&#39;&#39;What evidence suggests Caleshi knew about the staircase?&#39;&#39;
+(link-reveal: &quot;The wedding invitation&quot;)[
+$Severio No, that&#39;s not right...
+]
+(link-reveal: &quot;The spellprint in the secret room&quot;)[
+$Severio No, that&#39;s not right...
+]
+[[The photograph of the manor]]
+(link-reveal: &quot;Caleshi&#39;s previous testimony&quot;)[
+$Severio No, that&#39;s not right...
+]</tw-passagedata><tw-passagedata pid="112" name="The photograph of the manor" tags="" position="2900,2275" size="100,100">$Severio &quot;This photograph shows you and the Pentaccio family at the construction of the manor. You&#39;ve been family friends for years.&quot;
+$Caleshi The gaunt man stayed silent, glowering at the room, hands deep in his pockets
+$Severio &quot;If you were present at the construction, it stands to reason you knew about the secret door, as well as the smuggler&#39;s basement.
+$Severio &quot;You had the means. The raven was in that basement.&quot;
+$Severio &quot;The opportunity. You heard Stomp climb out his bedroom window.&quot;
+$Severio &quot;And the motive. A business meeting that went wrong. You couldn&#39;t let him sell.&quot;
+$Caleshi He ran his left hand through his hair. &quot;Absurd, nothing but weak speculation.&quot;
+$Stomp &quot;...You did say he&#39;d regret selling the business...&quot;
+$Rodillius &quot;...and Pentaccio hinted you would be cut off fully...&quot;
+$Stomp &quot;You didn&#39;t... did you?&quot;
+$Caleshi. The gaunt man chuckles, a dangerous sound.
+$Caleshi &quot;I guess it&#39;s time for plan B. Detective, did you know, there were three ravens?&quot; From his jacket pocket, he produced the third obsidian statuette. He grabbed Elena&#39;s arm and pointed the raven at her. The lieutenant grabbed his pistol, while the others gasped and backed away.
+$Masamhan &quot;Put it down, Caleshi.&quot;
+$Caleshi &quot;I don&#39;t think so. Me and the little lady are going to waltz out of here, or you&#39;ll alll see what this terrifying death magic looks like.&quot;
+$Ryker Surprisingly, the cadet strode forward towards Caleshi.
+$Caleshi &quot;S-stop right there!&quot; He turned the raven towards Ryker. &quot;Don&#39;t make me pull the trigger on you!&quot;
+$Ryker The cadet steps foward more. &quot;Then do it. Kill me.&quot;
+$Caleshi Panic. He clenched his eyes shut. 
+$Ryker The cadet stood his ground as a kaleidoscope of dark purples and reds engulfed him. But a moment later, the magic faded, and the cadet stood strong.
+$Caleshi The raven began to crumble, as did Caleshi&#39;s expression. 
+$Ryker &quot;You forget. The spell causes nightmares. I&#39;m not asleep.&quot;
+$Caleshi The scruffy man collapsed to his knees, letting go of Elena&#39;s arm. He was promptly handcuffed by the lieutenant, and escorted to the cells.
+$Severio I collected the gemstone from the pile of black dust, and turned back to the family.
+
+---
+
+$Valani &quot;So what happened to the married couple?&quot;
+$Ryker The cadet reclined in the armchair. &quot;He told her to leave. Turns out the drugging was a step too far.&quot;
+$Valani &quot;And the girl, Elena?&quot; The commissioner paced around her office in her uniform, inspecting the remaining raven statuette.
+$Severio &quot;She&#39;s fine. Or as fine as she gets. I think her brother will take good care of her.&quot;
+$Valani She eventually sat at her desk. &quot;So, Pentaccio was smuggling weapons of magical death. This is worse than I thought.&quot;
+$Severio &quot;There&#39;s more. There&#39;s this.&quot; I produced the gemstone we found hidden in the grandfather clock. &quot;It matches this gemstone in the mouth of the raven you&#39;re holding. And the one that came from Caleshi&#39;s raven. They&#39;re magical, but we haven&#39;t identified them.&quot;
+$Valani The elven woman pursed her lips, a darkening expression crossing her face as she inspected the glowing gem in the ring box.. 
+$Valani &quot;Severio. Do you know what this is?&quot;
+$Severio &quot;No, V, I have no clue.&quot;
+$Valani &quot;This is a person&#39;s soul.&quot;
+
+[[Continue]]</tw-passagedata><tw-passagedata pid="113" name="Continue" tags="" position="2900,2400" size="100,100">This is the end of the demo.
+Please send me any feedback you have. What you liked, what you didn&#39;t like. I would appreciate all of it!
+
+Thank you for playing!</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
