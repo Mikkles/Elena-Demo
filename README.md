@@ -1,4 +1,4 @@
-# Elena-Demo
+# Pentaccio Demo
 This is a very early first draft. No art or music, no reference sections or clue inventories, just the story. 
 In future iterations, there will be a corkboard to record your clues, hover-text on keywords, and other gameplay quality-of-life. 
 For this build, you might want to take some minor notes as you play. Near the end, you'll be tested on the mystery through multiple-choice questions, but there's no penalty for guessing incorrectly, so you can brute force through it.
@@ -30,7 +30,7 @@ The following are terms that, in the full game, would have hover tooltips with d
 * Souls: The folklore of the region believes that souls exist, and when someone dies, their soul moves on to one of many planes of existence depending on how they acted. This theory is supported by the current understanding of magic.
 
 # How to Play
-Go to this link! https://mikkles.github.io/Elena-Demo/Elena.html
+Go to this link! https://mikkles.github.io/Elena-Demo/PentaccioDemo.html
 
 
 
